@@ -1,38 +1,59 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Química Orgânica - Química Total</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-</head>
-<body>
-    <header class="navbar">
-        <div class="container nav-container">
-            <div class="logo">
-                <img src="assets/logo_1.png" alt="Logo Química Total" class="logo-icon" width="65" height="86">
-                <div class="logo-text">
-                    <h1>QUÍMICA<br>TOTAL</h1>
-                    <span>FUNDAMENTOS DA MATÉRIA. CIÊNCIA PURA.</span>
-                </div>
-            </div>
-            
-            <nav class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="materias.html" class="active">Matérias</a>
-                <a href="#">Eventos</a>
-                <a href="#">Blog</a>
-                <a href="#">Mais</a>
-            </nav>
-            
-            <a href="#" class="btn btn-outline">Aprenda Agora</a>
-        </div>
-    </header>
+'use client';
 
-    <main class="main-content layout-sidebar">
+import React, { useEffect } from 'react';
+import Script from 'next/script';
+
+export default function QuimicaOrganica() {
+  useEffect(() => {
+    const controllers = new AbortController();
+    const signal = controllers.signal;
+
+    const menuTitles = document.querySelectorAll('.menu-title');
+    menuTitles.forEach(title => {
+      const handler = () => {
+        const parentLi = title.parentElement;
+        if (!parentLi) return;
+        const submenu = parentLi.querySelector('.submenu') as HTMLElement;
+        if (parentLi.classList.contains('expanded')) {
+          parentLi.classList.remove('expanded');
+          if (submenu) submenu.style.display = 'none';
+        } else {
+          parentLi.classList.add('expanded');
+          if (submenu) submenu.style.display = 'block';
+        }
+      };
+      title.addEventListener('click', handler, { signal });
+    });
+
+    const subItems = document.querySelectorAll('.submenu li');
+    const contents = document.querySelectorAll('.topic-content');
+
+    subItems.forEach(item => {
+      const handler = () => {
+        subItems.forEach(li => li.classList.remove('active'));
+        contents.forEach(content => content.classList.remove('active'));
+
+        item.classList.add('active');
+        const targetId = item.getAttribute('data-target');
+        if (targetId) {
+          const targetEl = document.getElementById(targetId);
+          if (targetEl) targetEl.classList.add('active');
+        }
+
+        if ((window as any).MathJax) {
+          (window as any).MathJax.typesetPromise();
+        }
+      };
+      item.addEventListener('click', handler, { signal });
+    });
+
+    return () => controllers.abort();
+  }, []);
+
+  return (
+    <>
+      <Script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" strategy="lazyOnload" />
+      <div className="flex-1 flex flex-col" dangerouslySetInnerHTML={{ __html: `<main class="main-content layout-sidebar">
         <div class="container sidebar-container">
             <!-- Menu Lateral -->
             <aside class="sidebar">
@@ -72,7 +93,7 @@
                         <div class="menu-title">4. Estereoquímica</div>
                         <ul class="submenu">
                             <li data-target="topic-4-1">Quiralidade e Centros Estereogênicos (Carbonos Quirais).</li>
-                            <li data-target="topic-4-2">Configuração Absoluta ($R$/$S$)</li>
+                            <li data-target="topic-4-2">Configuração Absoluta (\$R\$/\$S\$)</li>
                             <li data-target="topic-4-3">Enantiômeros, Diastereoisômeros e Compostos Meso.</li>
                             <li data-target="topic-4-4">Atividade Óptica e Excesso Enantiomérico.</li>
                         </ul>
@@ -91,13 +112,13 @@
                         <ul class="submenu">
                             <li data-target="topic-6-1">Mecanismos de Substituição Nucleofílica</li>
                             <li data-target="topic-6-2">Mecanismos de Eliminação</li>
-                            <li data-target="topic-6-3">Competição entre $S_N1$, $S_N2$, $E1$ e $E2$.</li>
+                            <li data-target="topic-6-3">Competição entre \$S_N1\$, \$S_N2\$, \$E1\$ e \$E2\$.</li>
                         </ul>
                     </li>
                     <li class="menu-item has-submenu">
                         <div class="menu-title">7. Alcenos e Alcinos (Hidrocarbonetos Insaturados)</div>
                         <ul class="submenu">
-                            <li data-target="topic-7-1">Nomenclatura, Estrutura e Isomerias ($E$/$Z$, $cis$/$trans$).</li>
+                            <li data-target="topic-7-1">Nomenclatura, Estrutura e Isomerias (\$E\$/\$Z\$, \$cis\$/\$trans\$).</li>
                             <li data-target="topic-7-2">Reações de Adição Eletrofílica em Alcenos</li>
                             <li data-target="topic-7-3">Reações em Alcinos</li>
                         </ul>
@@ -121,7 +142,7 @@
                         <div class="menu-title">10. Métodos Espectroscópicos e Análise Estrutural</div>
                         <ul class="submenu">
                             <li data-target="topic-10-1">Espectroscopia de Infravermelho (IV)</li>
-                            <li data-target="topic-10-2">Ressonância Magnética Nuclear ($^1H$-RMN e $^{13}C$-RMN)</li>
+                            <li data-target="topic-10-2">Ressonância Magnética Nuclear (\$^1H\$-RMN e \$^{13}C\$-RMN)</li>
                             <li data-target="topic-10-3">Espectrometria de Massas (EM)</li>
                         </ul>
                     </li>
@@ -539,7 +560,7 @@
                 </div>
 
                 <div id="topic-4-2" class="topic-content">
-                    <h2>4. Estereoquímica - Configuração Absoluta ($R$/$S$)</h2>
+                    <h2>4. Estereoquímica - Configuração Absoluta (\$R\$/\$S\$)</h2>
                     <p>Regras de prioridade de Cahn-Ingold-Prelog.</p>
                 </div>
 
@@ -575,22 +596,22 @@
 
                 <div id="topic-6-1" class="topic-content">
                     <h2>6. Haletos de Alquila: Substituição Nucleofílica e Eliminação - Mecanismos de Substituição Nucleofílica</h2>
-                    <p>$S_N1$ e $S_N2$ (estereoquímica, nucleófilo, grupo de saída, solvente).</p>
+                    <p>\$S_N1\$ e \$S_N2\$ (estereoquímica, nucleófilo, grupo de saída, solvente).</p>
                 </div>
 
                 <div id="topic-6-2" class="topic-content">
                     <h2>6. Haletos de Alquila: Substituição Nucleofílica e Eliminação - Mecanismos de Eliminação</h2>
-                    <p>$E1$ e $E2$ (Regra de Zaitsev vs. Hofmann).</p>
+                    <p>\$E1\$ e \$E2\$ (Regra de Zaitsev vs. Hofmann).</p>
                 </div>
 
                 <div id="topic-6-3" class="topic-content">
-                    <h2>6. Haletos de Alquila: Substituição Nucleofílica e Eliminação - Competição entre $S_N1$, $S_N2$, $E1$ e $E2$.</h2>
-                    <p>Competição entre $S_N1$, $S_N2$, $E1$ e $E2$.</p>
+                    <h2>6. Haletos de Alquila: Substituição Nucleofílica e Eliminação - Competição entre \$S_N1\$, \$S_N2\$, \$E1\$ e \$E2\$.</h2>
+                    <p>Competição entre \$S_N1\$, \$S_N2\$, \$E1\$ e \$E2\$.</p>
                 </div>
 
                 <div id="topic-7-1" class="topic-content">
-                    <h2>7. Alcenos e Alcinos (Hidrocarbonetos Insaturados) - Nomenclatura, Estrutura e Isomerias ($E$/$Z$, $cis$/$trans$).</h2>
-                    <p>Nomenclatura, Estrutura e Isomerias ($E$/$Z$, $cis$/$trans$).</p>
+                    <h2>7. Alcenos e Alcinos (Hidrocarbonetos Insaturados) - Nomenclatura, Estrutura e Isomerias (\$E\$/\$Z\$, \$cis\$/\$trans\$).</h2>
+                    <p>Nomenclatura, Estrutura e Isomerias (\$E\$/\$Z\$, \$cis\$/\$trans\$).</p>
                 </div>
 
                 <div id="topic-7-2" class="topic-content">
@@ -634,7 +655,7 @@
                 </div>
 
                 <div id="topic-10-2" class="topic-content">
-                    <h2>10. Métodos Espectroscópicos e Análise Estrutural - Ressonância Magnética Nuclear ($^1H$-RMN e $^{13}C$-RMN)</h2>
+                    <h2>10. Métodos Espectroscópicos e Análise Estrutural - Ressonância Magnética Nuclear (\$^1H\$-RMN e \$^{13}C\$-RMN)</h2>
                     <p>Determinação da conectividade da estrutura carbônica.</p>
                 </div>
 
@@ -735,83 +756,7 @@
 
             </section>
         </div>
-    </main>
-
-    <footer class="footer">
-        <div class="container footer-container">
-            <div class="copyright">© 2024 Química Total</div>
-            <div class="footer-links">
-                <a href="#">Contato</a>
-                <a href="#">Sobre Nós</a>
-                <a href="#">Termos de Uso</a>
-                <a href="#">Política de Privacidade</a>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // Lógica do Accordion
-            const menuTitles = document.querySelectorAll('.menu-title');
-            
-            menuTitles.forEach(title => {
-                title.addEventListener('click', () => {
-                    const parentLi = title.parentElement;
-                    const submenu = parentLi.querySelector('.submenu');
-                    
-                    // Toggle the current submenu
-                    if (parentLi.classList.contains('expanded')) {
-                        parentLi.classList.remove('expanded');
-                        submenu.style.display = 'none';
-                    } else {
-                        // Opcional: fechar outros menus abertos
-                        // document.querySelectorAll('.menu-item.expanded').forEach(item => {
-                        //    item.classList.remove('expanded');
-                        //    item.querySelector('.submenu').style.display = 'none';
-                        // });
-                        
-                        parentLi.classList.add('expanded');
-                        submenu.style.display = 'block';
-                    }
-                });
-            });
-
-            // Lógica de seleção de subitens
-            const subItems = document.querySelectorAll('.submenu li');
-            const contents = document.querySelectorAll('.topic-content');
-
-            subItems.forEach(item => {
-                item.addEventListener('click', () => {
-                    // Remover active de todos subitens
-                    subItems.forEach(li => li.classList.remove('active'));
-                    contents.forEach(content => content.classList.remove('active'));
-
-                    // Adicionar active no item clicado e no conteúdo alvo
-                    item.classList.add('active');
-                    const targetId = item.getAttribute('data-target');
-                    document.getElementById(targetId).classList.add('active');
-                    
-                    // Forçar renderização do MathJax se houver equações ocultas que foram exibidas
-                    if (window.MathJax) {
-                        MathJax.typesetPromise();
-                    }
-                });
-            });
-        });
-    </script>
-
-    <script>
-        window.addEventListener('scroll', () => {
-            const navbar = document.querySelector('.navbar');
-            const logo = document.querySelector('.logo-icon');
-            if (window.scrollY > 0) {
-                navbar.classList.add('scrolled');
-                if (logo) logo.src = 'assets/logo.png';
-            } else {
-                navbar.classList.remove('scrolled');
-                if (logo) logo.src = 'assets/logo_1.png';
-            }
-        });
-    </script>
-</body>
-</html>
+    </main>` }} />
+    </>
+  );
+}
