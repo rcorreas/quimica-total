@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Físico-Química - Química Total</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="assets/logo_1.png" alt="Logo Química Total" class="logo-icon" width="65" height="86">
+                <div class="logo-text">
+                    <h1>QUÍMICA<br>TOTAL</h1>
+                    <span>FUNDAMENTOS DA MATÉRIA. CIÊNCIA PURA.</span>
+                </div>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="materias.html" class="active">Matérias</a>
+                <a href="#">Eventos</a>
+                <a href="#">Blog</a>
+                <a href="#">Mais</a>
+            </nav>
+            
+            <a href="#" class="btn btn-outline">Aprenda Agora</a>
+        </div>
+    </header>
+
+    <main class="main-content layout-sidebar">
+        <div class="container sidebar-container">
+            <!-- Menu Lateral -->
+            <aside class="sidebar">
+                <h3>Tópicos de Físico-Química</h3>
+                <ul class="sidebar-menu accordion-menu" id="sidebarMenu">
+                    <li class="menu-item has-submenu">
+                        <div class="menu-title">1. Gases e Estado Gaseoso</div>
+                        <ul class="submenu">
+                            <li data-target="topic-1-0">Gases Ideais</li>
+                            <li data-target="topic-1-1">Misturas de Gases</li>
+                            <li data-target="topic-1-2">Gases Reais</li>
+                            <li data-target="topic-1-3">Teoria Cinético-Molecular dos Gases</li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu">
+                        <div class="menu-title">2. Primeira Lei da Termodinâmica</div>
+                        <ul class="submenu">
+                            <li data-target="topic-2-0">Conceitos Fundamentais</li>
+                            <li data-target="topic-2-1">Trabalho, Calor e Energia Interna ($\Delta U$).</li>
+                            <li data-target="topic-2-2">Processos Reversíveis e Irreversíveis.</li>
+                            <li data-target="topic-2-3">Entalpia ($\Delta H$) e Capacidades Caloríficas ($C_p$ e $C_v$).</li>
+                            <li data-target="topic-2-4">Termoquímica</li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu">
+                        <div class="menu-title">3. Segunda e Terceira Leis da Termodinâmica</div>
+                        <ul class="submenu">
+                            <li data-target="topic-3-0">A Segunda Lei e Entropia ($S$)</li>
+                            <li data-target="topic-3-1">Ciclo de Carnot e Eficiência Térmica.</li>
+                            <li data-target="topic-3-2">Energia Livre de Gibbs ($G$) e Energia Livre de Helmholtz ($A$)</li>
+                            <li data-target="topic-3-3">A Terceira Lei da Termodinâmica</li>
+                            <li data-target="topic-3-4">Relações Fundamentais e Equações de Maxwell.</li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu">
+                        <div class="menu-title">4. Termodinâmica de Substâncias Puras e Transições de Fase</div>
+                        <ul class="submenu">
+                            <li data-target="topic-4-0">Pressão de Vapor e Diagramas de Fase (substância pura).</li>
+                            <li data-target="topic-4-1">Equação de Clapeyron e Equação de Clausius-Clapeyron.</li>
+                            <li data-target="topic-4-2">Regra das Fases de Gibbs.</li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu">
+                        <div class="menu-title">5. Termodinâmica de Misturas e Soluções</div>
+                        <ul class="submenu">
+                            <li data-target="topic-5-0">Grandezas Molares Parciais</li>
+                            <li data-target="topic-5-1">Soluções Ideais</li>
+                            <li data-target="topic-5-2">Propriedades Coligativas</li>
+                            <li data-target="topic-5-3">Soluções Reais</li>
+                            <li data-target="topic-5-4">Diagramas de Fase Binários</li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu">
+                        <div class="menu-title">6. Equilíbrio Químico</div>
+                        <ul class="submenu">
+                            <li data-target="topic-6-0">A Condição Termodinâmica do Equilíbrio Químico ($\Delta G^\circ$).</li>
+                            <li data-target="topic-6-1">Constantes de Equilíbrio ($K_p$, $K_c$ e $K_a$).</li>
+                            <li data-target="topic-6-2">Efeito da Temperatura</li>
+                            <li data-target="topic-6-3">Efeito da Pressão, Concentração e Princípio de Le Chatelier.</li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu">
+                        <div class="menu-title">7. Eletroquímica</div>
+                        <ul class="submenu">
+                            <li data-target="topic-7-0">Condutividade Eletrólitica</li>
+                            <li data-target="topic-7-1">Células Galvânicas e Células Eletrolíticas.</li>
+                            <li data-target="topic-7-2">Potencial Padrão de Eletrodo e Equação de Nernst.</li>
+                            <li data-target="topic-7-3">Aplicações</li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu">
+                        <div class="menu-title">8. Cinética Química</div>
+                        <ul class="submenu">
+                            <li data-target="topic-8-0">Velocidade de Reação e Leis de Velocidade Integradas (ordem 0, 1, 2 e pseudorregra).</li>
+                            <li data-target="topic-8-1">Meia-Vida ($t_{1/2}$).</li>
+                            <li data-target="topic-8-2">Mecanismos de Reação</li>
+                            <li data-target="topic-8-3">Dependência da Temperatura</li>
+                            <li data-target="topic-8-4">Teorias de Velocidade de Reação</li>
+                            <li data-target="topic-8-5">Catálise</li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu">
+                        <div class="menu-title">9. Fenômenos de Superfície e Colóides</div>
+                        <ul class="submenu">
+                            <li data-target="topic-9-0">Tensão Superficial e Capilaridade.</li>
+                            <li data-target="topic-9-1">Adsorção em Superfícies Sólidas</li>
+                            <li data-target="topic-9-2">Química de Colóides</li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu">
+                        <div class="menu-title">10. Introdução à Química Quântica (Físico-Química Molecular)</div>
+                        <ul class="submenu">
+                            <li data-target="topic-10-0">A Crise da Física Clássica</li>
+                            <li data-target="topic-10-1">Dualidade Onda-Partícula e Princípio da Incerteza de Heisenberg.</li>
+                            <li data-target="topic-10-2">A Equação de Schrödinger</li>
+                            <li data-target="topic-10-3">Modelos Simples</li>
+                            <li data-target="topic-10-4">Átomo de Hidrogênio e introdução aos orbitais moleculares.</li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu">
+                        <div class="menu-title">11. Espectroscopia Molecular</div>
+                        <ul class="submenu">
+                            <li data-target="topic-11-0">Interação da Radiação com a Matéria e Absorção/Emissão.</li>
+                            <li data-target="topic-11-1">Espectroscopia Rotacional (Micro-ondas)</li>
+                            <li data-target="topic-11-2">Espectroscopia Vibracional (Infravermelho e Raman)</li>
+                            <li data-target="topic-11-3">Espectroscopia Eletrônica (UV-Visível)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+            <!-- Área de Conteúdo -->
+            <div class="content-area">
+                <div id="topic-1-0" class="topic-content">
+                    <h2>1. Gases e Estado Gaseoso - Gases Ideais</h2>
+                    <p>Leis dos gases (Boyle, Charles, Avogadro) e equação de estado do gás ideal ($PV = nRT$).</p>
+                </div>
+
+                <div id="topic-1-1" class="topic-content">
+                    <h2>1. Gases e Estado Gaseoso - Misturas de Gases</h2>
+                    <p>Lei das pressões parciais de Dalton e frações molares.</p>
+                </div>
+
+                <div id="topic-1-2" class="topic-content">
+                    <h2>1. Gases e Estado Gaseoso - Gases Reais</h2>
+                    <p>Desvios da idealidade, fator de compressibilidade ($Z$) e Equação de Van der Waals.</p>
+                </div>
+
+                <div id="topic-1-3" class="topic-content">
+                    <h2>1. Gases e Estado Gaseoso - Teoria Cinético-Molecular dos Gases</h2>
+                    <p>Distribuição de velocidades de Maxwell-Boltzmann, energia cinética e efusão/difusão.</p>
+                </div>
+
+                <div id="topic-2-0" class="topic-content">
+                    <h2>2. Primeira Lei da Termodinâmica - Conceitos Fundamentais</h2>
+                    <p>Sistema (aberto, fechado, isolado), vizinhança, estado e funções de estado.</p>
+                </div>
+
+                <div id="topic-2-1" class="topic-content">
+                    <h2>2. Primeira Lei da Termodinâmica - Trabalho, Calor e Energia Interna ($\Delta U$).</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-2-2" class="topic-content">
+                    <h2>2. Primeira Lei da Termodinâmica - Processos Reversíveis e Irreversíveis.</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-2-3" class="topic-content">
+                    <h2>2. Primeira Lei da Termodinâmica - Entalpia ($\Delta H$) e Capacidades Caloríficas ($C_p$ e $C_v$).</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-2-4" class="topic-content">
+                    <h2>2. Primeira Lei da Termodinâmica - Termoquímica</h2>
+                    <p>Lei de Hess, entalpia padrão de formação, de reação e de ligação.</p>
+                </div>
+
+                <div id="topic-3-0" class="topic-content">
+                    <h2>3. Segunda e Terceira Leis da Termodinâmica - A Segunda Lei e Entropia ($S$)</h2>
+                    <p>Definição macroscópica e interpretação microscópica (estatística de Boltzmann).</p>
+                </div>
+
+                <div id="topic-3-1" class="topic-content">
+                    <h2>3. Segunda e Terceira Leis da Termodinâmica - Ciclo de Carnot e Eficiência Térmica.</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-3-2" class="topic-content">
+                    <h2>3. Segunda e Terceira Leis da Termodinâmica - Energia Livre de Gibbs ($G$) e Energia Livre de Helmholtz ($A$)</h2>
+                    <p>Critérios de espontaneidade e equilíbrio.</p>
+                </div>
+
+                <div id="topic-3-3" class="topic-content">
+                    <h2>3. Segunda e Terceira Leis da Termodinâmica - A Terceira Lei da Termodinâmica</h2>
+                    <p>Entropia absoluta e o zero absoluto.</p>
+                </div>
+
+                <div id="topic-3-4" class="topic-content">
+                    <h2>3. Segunda e Terceira Leis da Termodinâmica - Relações Fundamentais e Equações de Maxwell.</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-4-0" class="topic-content">
+                    <h2>4. Termodinâmica de Substâncias Puras e Transições de Fase - Pressão de Vapor e Diagramas de Fase (substância pura).</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-4-1" class="topic-content">
+                    <h2>4. Termodinâmica de Substâncias Puras e Transições de Fase - Equação de Clapeyron e Equação de Clausius-Clapeyron.</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-4-2" class="topic-content">
+                    <h2>4. Termodinâmica de Substâncias Puras e Transições de Fase - Regra das Fases de Gibbs.</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-5-0" class="topic-content">
+                    <h2>5. Termodinâmica de Misturas e Soluções - Grandezas Molares Parciais</h2>
+                    <p>Potencial químico ($\mu$).</p>
+                </div>
+
+                <div id="topic-5-1" class="topic-content">
+                    <h2>5. Termodinâmica de Misturas e Soluções - Soluções Ideais</h2>
+                    <p>Lei de Raoult e Lei de Henry.</p>
+                </div>
+
+                <div id="topic-5-2" class="topic-content">
+                    <h2>5. Termodinâmica de Misturas e Soluções - Propriedades Coligativas</h2>
+                    <p>Abaixamento ebulioscópico, crioscópico, tonoscópico e pressão osmótica.</p>
+                </div>
+
+                <div id="topic-5-3" class="topic-content">
+                    <h2>5. Termodinâmica de Misturas e Soluções - Soluções Reais</h2>
+                    <p>Atividade, coeficiente de atividade e fugacidade.</p>
+                </div>
+
+                <div id="topic-5-4" class="topic-content">
+                    <h2>5. Termodinâmica de Misturas e Soluções - Diagramas de Fase Binários</h2>
+                    <p>Misturas líquidas, destilação fracionada e azeótropos.</p>
+                </div>
+
+                <div id="topic-6-0" class="topic-content">
+                    <h2>6. Equilíbrio Químico - A Condição Termodinâmica do Equilíbrio Químico ($\Delta G^\circ$).</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-6-1" class="topic-content">
+                    <h2>6. Equilíbrio Químico - Constantes de Equilíbrio ($K_p$, $K_c$ e $K_a$).</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-6-2" class="topic-content">
+                    <h2>6. Equilíbrio Químico - Efeito da Temperatura</h2>
+                    <p>Equação de van 't Hoff.</p>
+                </div>
+
+                <div id="topic-6-3" class="topic-content">
+                    <h2>6. Equilíbrio Químico - Efeito da Pressão, Concentração e Princípio de Le Chatelier.</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-7-0" class="topic-content">
+                    <h2>7. Eletroquímica - Condutividade Eletrólitica</h2>
+                    <p>Condutância molar, Lei de Kohlrausch e atividade de íons em solução (Teoria de Debye-Hückel).</p>
+                </div>
+
+                <div id="topic-7-1" class="topic-content">
+                    <h2>7. Eletroquímica - Células Galvânicas e Células Eletrolíticas.</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-7-2" class="topic-content">
+                    <h2>7. Eletroquímica - Potencial Padrão de Eletrodo e Equação de Nernst.</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-7-3" class="topic-content">
+                    <h2>7. Eletroquímica - Aplicações</h2>
+                    <p>Pilhas, baterias, corrosão, eletrólise e titulações potenciométricas.</p>
+                </div>
+
+                <div id="topic-8-0" class="topic-content">
+                    <h2>8. Cinética Química - Velocidade de Reação e Leis de Velocidade Integradas (ordem 0, 1, 2 e pseudorregra).</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-8-1" class="topic-content">
+                    <h2>8. Cinética Química - Meia-Vida ($t_{1/2}$).</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-8-2" class="topic-content">
+                    <h2>8. Cinética Química - Mecanismos de Reação</h2>
+                    <p>Reações elementares, aproximação do estado estacionário e etapa determinante da velocidade.</p>
+                </div>
+
+                <div id="topic-8-3" class="topic-content">
+                    <h2>8. Cinética Química - Dependência da Temperatura</h2>
+                    <p>Equação de Arrhenius e Energia de Ativação.</p>
+                </div>
+
+                <div id="topic-8-4" class="topic-content">
+                    <h2>8. Cinética Química - Teorias de Velocidade de Reação</h2>
+                    <p>Teoria das Colisões e Teoria do Estado de Transição (Complexo Ativado).</p>
+                </div>
+
+                <div id="topic-8-5" class="topic-content">
+                    <h2>8. Cinética Química - Catálise</h2>
+                    <p>Catálise homogênea, heterogênea e cinética enzimática (Michaelis-Menten).</p>
+                </div>
+
+                <div id="topic-9-0" class="topic-content">
+                    <h2>9. Fenômenos de Superfície e Colóides - Tensão Superficial e Capilaridade.</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-9-1" class="topic-content">
+                    <h2>9. Fenômenos de Superfície e Colóides - Adsorção em Superfícies Sólidas</h2>
+                    <p>Isotermas de adsorção de Langmuir e Freundlich.</p>
+                </div>
+
+                <div id="topic-9-2" class="topic-content">
+                    <h2>9. Fenômenos de Superfície e Colóides - Química de Colóides</h2>
+                    <p>Agentes tensoativos, micelas, emulsões e efeito Tyndall.</p>
+                </div>
+
+                <div id="topic-10-0" class="topic-content">
+                    <h2>10. Introdução à Química Quântica (Físico-Química Molecular) - A Crise da Física Clássica</h2>
+                    <p>Radiação de corpo negro, efeito fotoelétrico e espectros atômicos.</p>
+                </div>
+
+                <div id="topic-10-1" class="topic-content">
+                    <h2>10. Introdução à Química Quântica (Físico-Química Molecular) - Dualidade Onda-Partícula e Princípio da Incerteza de Heisenberg.</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-10-2" class="topic-content">
+                    <h2>10. Introdução à Química Quântica (Físico-Química Molecular) - A Equação de Schrödinger</h2>
+                    <p>Função de onda e interpretação probabilística (Born).</p>
+                </div>
+
+                <div id="topic-10-3" class="topic-content">
+                    <h2>10. Introdução à Química Quântica (Físico-Química Molecular) - Modelos Simples</h2>
+                    <p>Partícula na caixa, oscilador harmônico (vibração) e rotor rígido (rotação).</p>
+                </div>
+
+                <div id="topic-10-4" class="topic-content">
+                    <h2>10. Introdução à Química Quântica (Físico-Química Molecular) - Átomo de Hidrogênio e introdução aos orbitais moleculares.</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-11-0" class="topic-content">
+                    <h2>11. Espectroscopia Molecular - Interação da Radiação com a Matéria e Absorção/Emissão.</h2>
+                    <p>Conteúdo em desenvolvimento...</p>
+                </div>
+
+                <div id="topic-11-1" class="topic-content">
+                    <h2>11. Espectroscopia Molecular - Espectroscopia Rotacional (Micro-ondas)</h2>
+                    <p>Comprimento de ligação.</p>
+                </div>
+
+                <div id="topic-11-2" class="topic-content">
+                    <h2>11. Espectroscopia Molecular - Espectroscopia Vibracional (Infravermelho e Raman)</h2>
+                    <p>Modos de vibração e forças de ligação.</p>
+                </div>
+
+                <div id="topic-11-3" class="topic-content">
+                    <h2>11. Espectroscopia Molecular - Espectroscopia Eletrônica (UV-Visível)</h2>
+                    <p>Transições eletrônicas e curvas de energia potencial.</p>
+                </div>
+
+            </div>
+        </div>
+</main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="copyright">© 2024 Química Total</div>
+            <div class="footer-links">
+                <a href="#">Contato</a>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Lógica do Accordion
+            const menuTitles = document.querySelectorAll('.menu-title');
+            
+            menuTitles.forEach(title => {
+                title.addEventListener('click', () => {
+                    const parentLi = title.parentElement;
+                    const submenu = parentLi.querySelector('.submenu');
+                    
+                    // Toggle the current submenu
+                    if (parentLi.classList.contains('expanded')) {
+                        parentLi.classList.remove('expanded');
+                        submenu.style.display = 'none';
+                    } else {
+                        // Opcional: fechar outros menus abertos
+                        // document.querySelectorAll('.menu-item.expanded').forEach(item => {
+                        //    item.classList.remove('expanded');
+                        //    item.querySelector('.submenu').style.display = 'none';
+                        // });
+                        
+                        parentLi.classList.add('expanded');
+                        submenu.style.display = 'block';
+                    }
+                });
+            });
+
+            // Lógica de seleção de subitens
+            const subItems = document.querySelectorAll('.submenu li');
+            const contents = document.querySelectorAll('.topic-content');
+
+            subItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    // Remover active de todos subitens
+                    subItems.forEach(li => li.classList.remove('active'));
+                    contents.forEach(content => content.classList.remove('active'));
+
+                    // Adicionar active no item clicado e no conteúdo alvo
+                    item.classList.add('active');
+                    const targetId = item.getAttribute('data-target');
+                    document.getElementById(targetId).classList.add('active');
+                    
+                    // Forçar renderização do MathJax se houver equações ocultas que foram exibidas
+                    if (window.MathJax) {
+                        MathJax.typesetPromise();
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            const logo = document.querySelector('.logo-icon');
+            if (window.scrollY > 0) {
+                navbar.classList.add('scrolled');
+                if (logo) logo.src = 'assets/logo.png';
+            } else {
+                navbar.classList.remove('scrolled');
+                if (logo) logo.src = 'assets/logo_1.png';
+            }
+        });
+    </script>
+</body>
+</html>
