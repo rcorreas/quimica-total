@@ -59,6 +59,19 @@ export default function Materias() {
                 <div className="card">
                     <div className="icon">
                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="M4.5 4.5l15 15"></path>
+                            <path d="M4.5 19.5l15-15"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3>Bioquímica</h3>
+                    <p>Estudo das estruturas, funções e interações das moléculas biológicas no metabolismo celular.</p>
+                    <Link href="/materias/bioquimica" className="btn btn-primary btn-sm">Ver Matéria</Link>
+                </div>
+
+                <div className="card">
+                    <div className="icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M10 2v7.31"></path>
                             <path d="M14 9.3V1.99"></path>
                             <path d="M8.5 2h7"></path>
