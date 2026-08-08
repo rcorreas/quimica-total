@@ -30,58 +30,45 @@ export default function Materias() {
                         </svg>
                     </div>
                     <h3>Química Inorgânica</h3>
-                    <p>Tabela periódica, ligações químicas, funções inorgânicas e compostos de coordenação.</p>
+                    <p>Estudo detalhado dos elementos químicos, metais, ametais e compostos inorgânicos.</p>
                     <Link href="/materias/quimica-inorganica" className="btn btn-primary btn-sm">Ver Matéria</Link>
                 </div>
 
                 <div className="card">
                     <div className="icon">
                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                            <path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18" />
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
                         </svg>
                     </div>
                     <h3>Química Orgânica</h3>
-                    <p>Estudo dos compostos de carbono, hidrocarbonetos, funções orgânicas e reações de síntese.</p>
+                    <p>Estudo dos compostos de carbono, suas estruturas, propriedades e reações.</p>
                     <Link href="/materias/quimica-organica" className="btn btn-primary btn-sm">Ver Matéria</Link>
                 </div>
-                
+
                 <div className="card">
                     <div className="icon">
                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                            <path d="M3 3v18h18" />
-                            <path d="m19 9-5 5-4-4-3 3" />
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
                         </svg>
                     </div>
                     <h3>Físico-Química</h3>
-                    <p>Termodinâmica, cinética química, eletroquímica e equilíbrio de reações.</p>
+                    <p>Princípios físicos que regem as propriedades e o comportamento dos sistemas químicos.</p>
                     <Link href="/materias/fisico-quimica" className="btn btn-primary btn-sm">Ver Matéria</Link>
                 </div>
 
                 <div className="card">
                     <div className="icon">
                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                            <path d="M9 2v20"></path>
-                            <path d="M17 2v20"></path>
-                            <path d="M22 6H2"></path>
-                            <path d="M22 18H2"></path>
-                            <path d="m7 14 5-5 5 5"></path>
+                            <path d="M10 2v7.31"></path>
+                            <path d="M14 9.3V1.99"></path>
+                            <path d="M8.5 2h7"></path>
+                            <path d="M14 9.3a6.5 6.5 0 1 1-4 0"></path>
+                            <path d="M5.52 16h12.96"></path>
                         </svg>
                     </div>
                     <h3>Laboratório</h3>
-                    <p>Vidrarias, segurança, técnicas de separação, titulação e síntese prática.</p>
+                    <p>Práticas, experimentos analíticos, vidrarias e normas de segurança.</p>
                     <Link href="/materias/laboratorio" className="btn btn-primary btn-sm">Ver Matéria</Link>
-                </div>
-                
-                <div className="card" style={{ opacity: 0.7, backgroundColor: '#e2e8f0' }}>
-                    <div className="icon" style={{ color: '#64748b' }}>
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                            <path d="M12 2v20"></path>
-                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-                        </svg>
-                    </div>
-                    <h3 style={{ color: '#475569' }}>Bioquímica</h3>
-                    <p>Proteínas, carboidratos, lipídios e metabolismo celular.</p>
-                    <span className="btn btn-outline btn-sm" style={{ borderColor: '#cbd5e1', color: '#64748b', cursor: 'not-allowed' }}>Em Breve</span>
                 </div>
             </section>
         </div>
