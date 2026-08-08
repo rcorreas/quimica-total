@@ -166,6 +166,10 @@ export default function FisicoQuimica() {
             </aside>
             <!-- Área de Conteúdo -->
             <div class="content-area">
+                <div id="welcome-message" class="topic-content active">
+                    <h2>Bem-vindo à Físico-Química</h2>
+                    <p>Selecione um tópico no menu lateral para iniciar seus estudos.</p>
+                </div>
                 <div id="topic-1-0" class="topic-content">
                     <h2>1. Gases e Estado Gaseoso - Gases Ideais</h2>
                     <p>Leis dos gases (Boyle, Charles, Avogadro) e equação de estado do gás ideal (\$PV = nRT\$).</p>

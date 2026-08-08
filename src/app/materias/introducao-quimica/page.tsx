@@ -150,6 +150,10 @@ export default function IntroducaoQuimica() {
             </aside>
             <!-- Área de Conteúdo -->
             <div class="content-area">
+                <div id="welcome-message" class="topic-content active">
+                    <h2>Bem-vindo à Introdução à Química</h2>
+                    <p>Selecione um tópico no menu lateral para iniciar seus estudos.</p>
+                </div>
                 <div id="topic-1-0" class="topic-content">
                     <h2>1. Introdução à Ciência Química e Matéria - O Método Científico e Segurança em Laboratório.</h2>
                     <p>Conteúdo em desenvolvimento...</p>

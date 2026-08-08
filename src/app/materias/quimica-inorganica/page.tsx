@@ -162,6 +162,10 @@ export default function QuimicaInorganica() {
             </aside>
             <!-- Área de Conteúdo -->
             <div class="content-area">
+                <div id="welcome-message" class="topic-content active">
+                    <h2>Bem-vindo à Química Inorgânica</h2>
+                    <p>Selecione um tópico no menu lateral para iniciar seus estudos.</p>
+                </div>
                 <div id="topic-1-0" class="topic-content">
                     <h2>1. Estrutura Atômica e Tabela Periódica - Modelos Atômicos e Mecânica Quântica</h2>
                     <p>Orbitais atômicos, números quânticos e funções de onda.</p>

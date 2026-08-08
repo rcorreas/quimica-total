@@ -132,6 +132,10 @@ export default function Laboratorio() {
             </aside>
             <!-- Área de Conteúdo -->
             <div class="content-area">
+                <div id="welcome-message" class="topic-content active">
+                    <h2>Bem-vindo ao Laboratório</h2>
+                    <p>Selecione um tópico no menu lateral para iniciar seus estudos.</p>
+                </div>
                 <div id="topic-1-0" class="topic-content">
                     <h2>1. Segurança, Boas Práticas e Organização - Regras de Segurança no Laboratório</h2>
                     <p>Uso de Equipamentos de Proteção Individual (EPIs) e Coletiva (EPCs).</p>
