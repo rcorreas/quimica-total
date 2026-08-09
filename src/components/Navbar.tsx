@@ -4,6 +4,9 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
+import logoScrolled from '../../public/assets/logo.png';
+import logoTop from '../../public/assets/logo_1.png';
+
 export default function Navbar() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
@@ -21,7 +24,7 @@ export default function Navbar() {
     <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="container nav-container">
             <Link href="/" className="logo">
-                <Image src={scrolled ? "/assets/logo.png" : "/assets/logo_1.png"} alt="Logo Química Total" className="logo-icon" width={65} height={86} />
+                <Image src={scrolled ? logoScrolled : logoTop} alt="Logo Química Total" className="logo-icon" width={65} height={86} />
                 <div className="logo-text">
                     <h1>QUÍMICA<br/>TOTAL</h1>
                     <span>FUNDAMENTOS DA MATÉRIA. CIÊNCIA PURA.</span>
