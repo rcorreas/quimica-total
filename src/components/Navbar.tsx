@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
@@ -20,7 +21,7 @@ export default function Navbar() {
     <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="container nav-container">
             <Link href="/" className="logo">
-                <img src={scrolled ? "/assets/logo.png" : "/assets/logo_1.png"} alt="Logo Química Total" className="logo-icon" width="65" height="86" />
+                <Image src={scrolled ? "/assets/logo.png" : "/assets/logo_1.png"} alt="Logo Química Total" className="logo-icon" width={65} height={86} />
                 <div className="logo-text">
                     <h1>QUÍMICA<br/>TOTAL</h1>
                     <span>FUNDAMENTOS DA MATÉRIA. CIÊNCIA PURA.</span>
