@@ -773,43 +773,336 @@ export default function QuimicaOrganica() {
                 </div>
 
                 <div id="topic-7-1" class="topic-content">
-                    <h2>7. Alcenos e Alcinos (Hidrocarbonetos Insaturados) - Nomenclatura, Estrutura e Isomerias (\$E\$/\$Z\$, \$cis\$/\$trans\$).</h2>
-                    <p>Nomenclatura, Estrutura e Isomerias (\$E\$/\$Z\$, \$cis\$/\$trans\$).</p>
+                    <h2>🍇 7. Alcenos e Alcinos: Os Super-Heróis das Ligações Duplas e Triplas</h2>
+                    <p>Se você já comeu uma banana madura que foi guardada num saco de papel ou já viu um soldador trabalhando com aquela chama azul super brilhante, você já testemunhou a química dos alcenos e alcinos em ação!</p>
+                    <p>Hoje, vamos usar técnicas de neurocognição — como associação visual, fatiamento de conceitos e evocação ativa — para dominar a estrutura, a nomenclatura e as reações dessas moléculas insaturadas de forma leve e definitiva.</p>
+                    
+                    <h3>🏗️ 1. Estrutura e Isomerias: A Rigidez das Duplas Ligações</h3>
+                    <p>Nos alcanos, os carbonos estão unidos por ligações simples, que permitem que a molécula gire livremente como um ventilador. Mas nos alcenos (que possuem uma ligação dupla \\(C=C\\)), a presença de uma ligação pi (\\(\\pi\\)) cria um bloqueio.</p>
+                    
+                    <p><strong>🧠 Metáfora Ativa:</strong> Imagine duas placas de madeira unidas por um único prego (ligação simples). Você consegue girá-las facilmente. Agora, coloque um segundo prego (ligação dupla). O movimento de rotação trava completamente!</p>
+                    <p>Essa rigidez dá origem à isomeria geométrica (estereoisomeria).</p>
+                    
+                    <h4>A) Isomeria Cis-Trans (Para Moléculas Simples)</h4>
+                    <p>Quando os carbonos da ligação dupla estão ligados a hidrogênios e a grupos alquila idênticos, usamos os termos cis e trans:</p>
+                    <ul>
+                        <li><strong>Cis (do latim desse lado):</strong> Os grupos importantes ou átomos idênticos estão do mesmo lado do plano da dupla ligação.</li>
+                        <li><strong>Trans (do latim através):</strong> Os grupos estão em lados opostos.</li>
+                    </ul>
+                    <p>Exemplo clássico: O cis-2-buteno e o trans-2-buteno. Devido ao empacotamento e à repulsão de cargas (tensão estérica), os isômeros trans geralmente são mais estáveis e têm menor energia do que os isômeros cis.</p>
+
+                    <h4>B) Isomeria E-Z (O Sistema Universal)</h4>
+                    <p>O que fazer quando a ligação dupla tem 3 ou 4 substituintes totalmente diferentes, de modo que é impossível dizer quem é idêntico a quem? Usamos o Sistema E-Z, baseado nas regras de prioridade de Cahn-Ingold-Prelog (CIP):</p>
+                    <ol>
+                        <li>Olhe para o Carbono da esquerda e determine qual dos seus dois substituintes tem a maior prioridade (baseado no maior número atômico).</li>
+                        <li>Faça o mesmo para o Carbono da direita.</li>
+                        <li>Compare a posição espacial dos dois grupos vencedores de cada lado:</li>
+                    </ol>
+                    <ul>
+                        <li><strong>Z (de Zusammen - juntos em alemão):</strong> Se os dois grupos de maior prioridade estiverem do mesmo lado da ligação dupla.</li>
+                        <li><strong>E (de Entgegen - opostos em alemão):</strong> Se os dois grupos de maior prioridade estiverem em lados opostos.</li>
+                    </ul>
+                    <p><strong>💡 NeuroMnemônico para nunca mais esquecer:</strong></p>
+                    <ul>
+                        <li><strong>Z</strong> = "Zame side" (mesmo lado, com sotaque divertido).</li>
+                        <li><strong>E</strong> = "Eparted" (separados/opostos).</li>
+                    </ul>
                 </div>
 
                 <div id="topic-7-2" class="topic-content">
-                    <h2>7. Alcenos e Alcinos (Hidrocarbonetos Insaturados) - Reações de Adição Eletrofílica em Alcenos</h2>
-                    <p>Hidrogenação, halogenação, hidrohalogenação (Regra de Markovnikov) e hidratação.</p>
+                    <h2>⚡ 2. Reações de Adição Eletrofílica em Alcenos</h2>
+                    <p>A ligação dupla é formada por uma ligação sigma (\\(\\sigma\\)) forte e uma ligação pi (\\(\\pi\\)) mais fraca e exposta. Essa nuvem pi é altamente concentrada em elétrons (carga negativa), funcionando como um verdadeiro ímã de elétrons (um nucleófilo).</p>
+                    <p>Substâncias com carga positiva ou ávidas por elétrons (os eletrófilos) são atraídas pela ligação pi e se adicionam à molécula, quebrando a dupla ligação e transformando-a em ligações simples.</p>
+                    <p>Aqui estão as quatro reações que você deve carregar no bolso:</p>
+                    <pre><code>
+         [ Catalisador Metal ] + H2 ───> Alcano (Hidrogenação)
+         [ Cl2 ou Br2 ] ───────────────> Di-haleto Vicinal (Halogenação)
+ALCENO + [ H-X (HCl, HBr) ] ───────────> Haleto de Alquila (Hidrohalogenação)
+         [ H2O / H+ ] ─────────────────> Álcool (Hidratação)
+                    </code></pre>
+
+                    <h4>A) Hidrogenação Catalítica (Fazendo Margarina)</h4>
+                    <p>O gás hidrogênio (\\(H_2\\)) se adiciona à ligação dupla na presença de um metal de transição como catalisador (Platina \\(Pt\\), Paládio \\(Pd\\) ou Níquel \\(Ni\\)).</p>
+                    <p><strong>O Resultado:</strong> A ligação dupla se rompe e os hidrogênios entram do mesmo lado da molécula (adição syn), transformando um alceno insaturado em um alcano saturado. É assim que a indústria transforma óleos vegetais líquidos em gorduras sólidas (margarina!).</p>
+
+                    <h4>B) Halogenação (Adição Anti)</h4>
+                    <p>Adição de bromo (\\(Br_2\\)) ou cloro (\\(Cl_2\\)).</p>
+                    <ul>
+                        <li><strong>O Mecanismo:</strong> O alceno ataca o halogênio, formando um intermediário cíclico estável (íon halônio) que bloqueia um dos lados da molécula. Por isso, o segundo halogênio é forçado a atacar pelo lado oposto.</li>
+                        <li><strong>O Resultado:</strong> Um di-haleto vicinal (halogênios em carbonos vizinhos) com geometria de adição anti (lados opostos).</li>
+                    </ul>
+
+                    <h4>C) Hidrohalogenação (HCl, HBr, HI) e a Famosa Regra de Markovnikov</h4>
+                    <p>Quando adicionamos um haleto de hidrogênio (como o \\(HCl\\)) a um alceno assimétrico (com números diferentes de hidrogênio em seus carbonos), qual carbono recebe o \\(H\\) e qual recebe o halogênio?</p>
+                    <p>É aqui que entra a Regra de Markovnikov:</p>
+                    <p><strong>👑 Regra de Markovnikov (O efeito "O rico fica mais rico"):</strong> Na adição de um ácido mineral a um alceno, o átomo de hidrogênio (\\(H\\)) se adiciona ao carbono da dupla ligação que já possui o maior número de hidrogênios. O halogênio (\\(X\\)) liga-se ao carbono com menos hidrogênios.</p>
+                    <p><strong>🧠 Por que o cérebro da molécula faz isso? (O Mecanismo)</strong></p>
+                    <ol>
+                        <li>O alceno pega o \\(H^+\\), adicionando-o na ponta para gerar o carbocátion mais estável possível (terciário > secundário > primário) no outro carbono.</li>
+                        <li>O haleto (\\(Cl^-\\), \\(Br^-\\)), que está carregado negativamente, ataca o carbono positivo (carbocátion), completando a reação.</li>
+                    </ol>
+
+                    <h4>D) Hidratação Catalisada por Ácido</h4>
+                    <p>Adição de água (\\(H_2O\\)) em meio ácido (usando \\(H_2SO_4\\) diluído como catalisador).</p>
+                    <p><strong>O Resultado:</strong> Segue a mesma lógica de Markovnikov! O hidrogênio (\\(H^+\\)) se liga ao carbono mais hidrogenado, e o grupo hidroxila (\\(-OH\\)) se liga ao carbono mais substituído (onde o carbocátion está mais estável). O produto final é um Álcool.</p>
                 </div>
 
                 <div id="topic-7-3" class="topic-content">
-                    <h2>7. Alcenos e Alcinos (Hidrocarbonetos Insaturados) - Reações em Alcinos</h2>
-                    <p>Adição eletrofílica, acidez de alcinos terminais e síntese de alcinos.</p>
+                    <h2>💎 3. Alcinos: A Química Especial da Ligação Tripla</h2>
+                    <p>Os alcinos possuem uma ligação tripla (\\(1\\sigma + 2\\pi\\)) com hibridização do tipo sp (geometria linear de 180°). Eles compartilham reações de adição eletrofílica muito semelhantes às dos alcenos, mas guardam duas grandes exclusividades na manga:</p>
+
+                    <h4>A) A Acidez Surpreendente dos Alcinos Terminais</h4>
+                    <p>Os alcanos e alcenos normais são extremamente inertes a reações ácido-base (seus hidrogênios não saem por nada!). Porém, os alcinos terminais (aqueles em que a ligação tripla está na ponta da molécula, deixando um hidrogênio ligado diretamente a ela: \\(R-C\\equiv C-H\\)) são surpreendentemente ácidos para hidrocarbonetos (\\(pK_a \\approx 25\\))!</p>
+                    <ul>
+                        <li><strong>O Segredo:</strong> Os carbonos com hibridização \\(sp\\) têm mais caráter s (50%). Isso significa que os elétrons da ligação \\(C-H\\) estão muito mais próximos do núcleo positivo do carbono, enfraquecendo a ligação e permitindo que o próton (\\(H^+\\)) seja removido por uma base forte.</li>
+                        <li><strong>A Reação:</strong> Se tratarmos um alcino terminal com uma base poderosa como o amideto de sódio (\\(NaNH_2\\)) em amônia líquida, removemos o próton e geramos o ânion alquineto (um carbânion estável e extremamente reativo).</li>
+                    </ul>
+
+                    <h4>B) Síntese de Alcinos por Alquilação (Crescendo a Molécula)</h4>
+                    <p>Uma vez gerado, o ânion alquineto é um nucleófilo fantástico! Ele pode atacar um haleto de alquila primário, expulsando o halogênio (uma reação de substituição nucleofílica \\(S_N2\\)).</p>
+                    <p><strong>Utilidade:</strong> Isso permite construir cadeias de carbono sob medida, adicionando novos pedaços ao alcino original!</p>
+
+                    <h4>C) Síntese de Alcinos por Dupla Eliminação</h4>
+                    <p>Podemos fabricar uma ligação tripla a partir de um alceno tratando-o primeiro com \\(Br_2\\) para gerar um di-haleto vicinal. Em seguida, adicionamos uma base forte (como 3 mols de \\(NaNH_2\\)) para forçar duas reações de eliminação seguidas (E2), arrancando os halogênios e hidrogênios adjacentes e criando a ligação tripla.</p>
                 </div>
 
                 <div id="topic-8-1" class="topic-content">
-                    <h2>8. Química dos Radicais - Halogenação de Alcanos (Iniciação, Propagação e Terminação).</h2>
-                    <p>Halogenação de Alcanos (Iniciação, Propagação e Terminação).</p>
+                    <h2>⚡ 8. Química dos Radicais: As Moléculas Rebeldes e a Reação em Cadeia</h2>
+                    <p>Imagine que você está em uma festa onde todo mundo está em duplas perfeitamente estáveis e felizes. De repente, chega alguém solteiro e extremamente extrovertido que decide "separar" uma das duplas para conseguir um parceiro. Quem ficou solteiro agora faz a mesma coisa com outra dupla, gerando um efeito dominó que agita a festa inteira.</p>
+                    <p>Na química orgânica, esse "solteiro festeiro" é chamado de radical livre. Radicais livres são átomos ou moléculas altamente reativos que possuem um elétron desemparelhado (um elétron "solteiro"). Hoje, vamos aprender como essas espécies realizam reações em cadeia e por que algumas são tão organizadas e seletivas, enquanto outras parecem um verdadeiro caos energético.</p>
+                    
+                    <h3>🌟 1. A Reação em Cadeia: O Jogo em Três Etapas</h3>
+                    <p>A reação clássica de radicais é a halogenação de alcanos (quando substituímos um hidrogênio de um alcano por um halogênio, como cloro ou bromo). Esse processo ocorre através de um mecanismo de reação em cadeia dividido em três etapas perfeitamente sincronizadas:</p>
+                    <p style="text-align: center;"><strong>Iniciação ➔ Propagação ➔ Terminação</strong></p>
+                    
+                    <h4>🎬 Etapa 1: Iniciação (O Despertar do Radical)</h4>
+                    <p>A reação não começa sozinha porque os halogênios (\\(\\text{Cl}_2\\) ou \\(\\text{Br}_2\\)) estão estáveis. Para que a festa comece, precisamos de um empurrãozinho energético: luz ultravioleta (\\(h\\nu\\)) ou calor intenso.</p>
+                    <ul>
+                        <li>Essa energia promove uma homólise (uma quebra igualitária) da ligação entre os dois átomos de halogênio.</li>
+                        <li>Diferente da quebra heterolítica (onde um átomo rouba todos os elétrons), na homólise cada átomo fica com exatamente um elétron da ligação que foi desfeita.</li>
+                    </ul>
+                    <p>Representação:</p>
+                    <p style="text-align: center;">$$\\text{Cl}-\\text{Cl} \\xrightarrow{h\\nu} \\text{Cl}^\\bullet + ^\\bullet\\text{Cl}$$</p>
+                    <p>(O símbolo "\\(\\bullet\\)" representa o elétron desemparelhado que torna o radical livre um verdadeiro dínamo de reatividade!)</p>
+                    
+                    <h4>🔄 Etapa 2: Propagação (O Efeito Dominó)</h4>
+                    <p>Agora que temos radicais livres na mistura, eles começam a colidir com as moléculas estáveis de alcano. Esta etapa se repete milhares de vezes:</p>
+                    <ul>
+                        <li><strong>Passo A (Abstração de Hidrogênio):</strong> O radical halogênio (\\(\\text{X}^\\bullet\\)) colide com o alcano (\\(\\text{R}-\\text{H}\\)) e "rouba" o hidrogênio com seu elétron. Isso forma um haleto de hidrogênio estável (\\(\\text{H}-\\text{X}\\)) e deixa para trás um radical alquila (\\(\\text{R}^\\bullet\\)) na molécula de carbono.<br>
+                        $$\\text{X}^\\bullet + \\text{R}-\\text{H} \\rightarrow \\text{H}-\\text{X} + \\text{R}^\\bullet$$</li>
+                        <li><strong>Passo B (Ataque ao Halogênio):</strong> O recém-criado radical alquila (\\(\\text{R}^\\bullet\\)) está desesperado por estabilidade. Ele colide com uma molécula intacta de halogênio (\\(\\text{X}_2\\)), rouba um dos átomos de halogênio para formar o produto final (\\(\\text{R}-\\text{X}\\)) e, ao fazer isso, regenera um novo radical halogênio (\\(\\text{X}^\\bullet\\)).<br>
+                        $$\\text{R}^\\bullet + \\text{X}-\\text{X} \\rightarrow \\text{R}-\\text{X} + \\text{X}^\\bullet$$</li>
+                    </ul>
+                    <p>O radical \\(\\text{X}^\\bullet\\) liberado no Passo B volta imediatamente para o Passo A, criando um ciclo contínuo e autossustentável que pode se repetir até 1.000.000 de vezes por cada ativação de luz!</p>
+                    
+                    <h4>🛑 Etapa 3: Terminação (O Fim da Festa)</h4>
+                    <p>Como a festa acaba? O ciclo de propagação é interrompido quando dois radicais livres colidem diretamente um com o outro. Ao se encontrarem, seus elétrons solteiros se emparelham e formam uma ligação covalente estável, não gerando novos radicais para continuar a cadeia.</p>
+                    <ul>
+                        <li>Colisão de halogênios: \\(\\text{X}^\\bullet + \\text{X}^\\bullet \\rightarrow \\text{X}_2\\)</li>
+                        <li>Colisão de alquila e halogênio: \\(\\text{R}^\\bullet + \\text{X}^\\bullet \\rightarrow \\text{R}-\\text{X}\\)</li>
+                        <li>Colisão de dois alquilas: \\(\\text{R}^\\bullet + \\text{R}^\\bullet \\rightarrow \\text{R}-\\text{R}\\)</li>
+                    </ul>
                 </div>
 
                 <div id="topic-8-2" class="topic-content">
-                    <h2>8. Química dos Radicais - Seletividade de Halogenação (Cloração vs. Bromação).</h2>
-                    <p>Seletividade de Halogenação (Cloração vs. Bromação).</p>
+                    <h2>⚖️ 2. Seletividade: Cloração vs. Bromação</h2>
+                    <p>Se tentarmos halogenar um alcano maior, como o propano (\\(\\text{CH}_3\\text{CH}_2\\text{CH}_3\\)), o radical halogênio tem duas opções de onde retirar o hidrogênio:</p>
+                    <ul>
+                        <li>Dos carbonos das pontas (gerando um radical primário, \\(1^\\circ\\)).</li>
+                        <li>Do carbono do meio (gerando um radical secundário, \\(2^\\circ\\)).</li>
+                    </ul>
+                    
+                    <h3>📈 Estabilidade dos Radicais</h3>
+                    <p>Assim como os carbocátions, a estabilidade dos radicais segue a mesma regra: terciário (\\(3^\\circ\\)) &gt; secundário (\\(2^\\circ\\)) &gt; primário (\\(1^\\circ\\)). Os carbonos vizinhos ajudam a dispersar e estabilizar o elétron desemparelhado por um efeito chamado hiperconjugação.</p>
+                    <p>Apesar disso, por que a cloração e a bromação dão resultados tão diferentes na prática?</p>
+                    
+                    <div style="overflow-x: auto; margin-bottom: 20px;">
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <thead>
+                                <tr style="background-color: #f3f4f6;">
+                                    <th style="border: 1px solid #ccc; padding: 8px;">Reação</th>
+                                    <th style="border: 1px solid #ccc; padding: 8px;">Produto no Carbono \\(1^\\circ\\) (Menos Estável)</th>
+                                    <th style="border: 1px solid #ccc; padding: 8px;">Produto no Carbono \\(3^\\circ\\) (Mais Estável)</th>
+                                    <th style="border: 1px solid #ccc; padding: 8px;">Grau de Controle / Seletividade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="border: 1px solid #ccc; padding: 8px;">Cloração do Isobutano</td>
+                                    <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">63%</td>
+                                    <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">37%</td>
+                                    <td style="border: 1px solid #ccc; padding: 8px;">Baixa (Caótica)</td>
+                                </tr>
+                                <tr>
+                                    <td style="border: 1px solid #ccc; padding: 8px;">Bromação do Isobutano</td>
+                                    <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">&lt; 1%</td>
+                                    <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">&gt; 99%</td>
+                                    <td style="border: 1px solid #ccc; padding: 8px;">Altíssima (Cirúrgica)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <p>Por que o bromo é tão incrivelmente preciso e seletivo, enquanto o cloro parece ignorar a estabilidade do radical formado e gera misturas difíceis de separar?</p>
+                    
+                    <h3>🧠 A Resposta da Neuroquímica: O Postulado de Hammond</h3>
+                    <p>O segredo desse comportamento reside na termodinâmica da primeira etapa de propagação (a abstração do hidrogênio) e na forma como os estados de transição se comportam espacialmente:</p>
+                    
+                    <h4>A Cloração é Exotérmica (Rápida e Apressada):</h4>
+                    <ul>
+                        <li>A reação do radical cloro para retirar o hidrogênio libera muita energia (\\(\\Delta H &lt; 0\\)).</li>
+                        <li>Segundo o Postulado de Hammond, em reações exotérmicas, o Estado de Transição (ET) ocorre muito cedo na coordenada de reação, assemelhando-se muito aos reagentes iniciais.</li>
+                        <li>Como o estado de transição se parece com os reagentes, a ligação \\(\\text{C}-\\text{H}\\) ainda mal começou a se quebrar. O carbono ainda não "percebeu" que vai se tornar um radical livre estável ou instável.</li>
+                        <li>Por ser muito reativa e pouco sensível a essas diferenças de energia, a cloração ocorre quase sem critério.</li>
+                    </ul>
+                    
+                    <h4>A Bromação é Endotérmica (Lenta e Seletiva):</h4>
+                    <ul>
+                        <li>A reação do radical bromo para retirar o hidrogênio é lenta e absorve energia (\\(\\Delta H &gt; 0\\)).</li>
+                        <li>Pelo Postulado de Hammond, em reações endotérmicas, o Estado de Transição (ET) ocorre de forma tardia, assemelhando-se muito aos produtos (o radical alquila em formação).</li>
+                        <li>No ET da bromação, a ligação \\(\\text{C}-\\text{H}\\) já está quase completamente rompida. O carbono já sente de forma muito pronunciada a carga e a estabilização do radical livre que está nascendo.</li>
+                        <li>Por isso, a barreira de energia de ativação para formar um radical terciário (\\(\\text{E}_a\\) menor) é drasticamente menor do que para formar um radical primário. O bromo prefere quase que exclusivamente o caminho mais fácil e estável.</li>
+                    </ul>
                 </div>
 
                 <div id="topic-9-1" class="topic-content">
-                    <h2>9. Alcoóis, Éteres, Epóxidos e Tióis - Propriedades Físicas e Nomenclatura.</h2>
-                    <p>Propriedades Físicas e Nomenclatura.</p>
+                    <h2>9. Álcoois, Éteres, Epóxidos e Tióis - Propriedades Físicas e Nomenclatura.</h2>
+                    <p><strong>🧠 Álcoois, Éteres, Epóxidos e Tióis: Os Segredos das Conexões Oxigenadas e de Enxofre</strong><br/>
+                    Seja muito bem-vindo! Hoje você vai descobrir a química por trás do álcool em gel das nossas mãos, do éter anestésico que revolucionou as cirurgias no século XIX, da supercola epóxi e até do aroma inconfundível do alho e do spray de um gambá.</p>
+                    <p>Para facilitar seu aprendizado, vamos usar técnicas de dupla codificação (texto + metáforas visuais) e organizar as informações em blocos para gerenciar sua carga mental. Pronto para começar?</p>
+                    
+                    <h3>🔍 1. Propriedades Físicas e Nomenclatura: Os Quatro Irmãos Moleculares</h3>
+                    <p>Nossos quatro protagonistas de hoje são compostos orgânicos que trazem átomos de Oxigênio (O) ou seu vizinho de grupo na Tabela Periódica, o Enxofre (S).</p>
+                    
+                    <h4>🧪 A) Álcoois (R–OH)</h4>
+                    <p>Possuem o grupo funcional hidroxila (–OH) ligado a um carbono saturado (\\(sp^3\\)).</p>
+                    <ul>
+                        <li><strong>Nomenclatura IUPAC:</strong> É muito simples! Pegue o nome do alcano correspondente e troque a terminação "-o" por "-ol".<br/>
+                        <em>Exemplos:</em> \\(\\text{CH}_3\\text{–OH}\\) (Metanol), \\(\\text{CH}_3\\text{CH}_2\\text{–OH}\\) (Etanol), \\(\\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{–OH}\\) (Propan-1-ol).</li>
+                        <li><strong>Propriedades Físicas (O Superpoder da Atração):</strong> Como o oxigênio é extremamente eletronegativo, a ligação O–H é altamente polarizada. Isso permite que os álcoois façam Ligações de Hidrogênio muito fortes entre si.<br/>
+                        <em>Resultado:</em> Seus pontos de ebulição são muito mais altos que os dos alcanos ou éteres de massa parecida!</li>
+                        <li><strong>Cabo de Guerra da Solubilidade:</strong> O grupo –OH é hidrofílico (ama água), mas a cadeia carbônica é hidrofóbica (repele água). Álcoois curtos (metanol, etanol, propanol) são infinitamente miscíveis em água. Porém, à medida que a cadeia carbônica cresce (de 4 carbonos para cima), o lado hidrofóbico "ganha" o cabo de guerra e a solubilidade em água despenca!</li>
+                    </ul>
+
+                    <h4>💨 B) Éteres (R–O–R')</h4>
+                    <p>O oxigênio fica "espremido" como uma ponte entre dois grupos de carbono.</p>
+                    <ul>
+                        <li><strong>Nomenclatura Comum:</strong> Escreva "Éter" + os nomes dos grupos em ordem alfabética com o sufixo "ílico".<br/>
+                        <em>Exemplo:</em> \\(\\text{CH}_3\\text{CH}_2\\text{–O–CH}_2\\text{CH}_3\\) é o Éter dietílico.</li>
+                        <li><strong>Nomenclatura IUPAC:</strong> O menor grupo vira prefixo "Alcoxi" e o maior grupo vira o "Alcano" principal.<br/>
+                        <em>Exemplo:</em> \\(\\text{CH}_3\\text{–O–CH}_2\\text{CH}_3\\) é o Metoxietano.</li>
+                        <li><strong>Propriedades Físicas (Sem Pontes entre Si):</strong> Como não há hidrogênio ligado diretamente ao oxigênio nos éteres, as moléculas não conseguem fazer ligações de hidrogênio entre si.<br/>
+                        <em>Resultado:</em> Seus pontos de ebulição são baixos (semelhantes aos dos alcanos correspondentes). No entanto, como o oxigênio possui pares de elétrons livres, ele pode receber ligações de hidrogênio da água. Por isso, o éter dietílico tem uma solubilidade em água razoavelmente parecida com a do butan-1-ol!</li>
+                    </ul>
+
+                    <h4>🕸️ C) Epóxidos (Oxiranos)</h4>
+                    <p>São um tipo muito especial de éter: um anel cíclico tridimensional contendo dois carbonos e um oxigênio.</p>
+                    <ul>
+                        <li><strong>A Metáfora da Mola Comprimida:</strong> No modelo ideal, carbonos \\(sp^3\\) preferem ângulos de ligação de 109,5°. No triângulo equilátero de um epóxido, os ângulos são espremidos a 60°! Isso cria uma tensão de anel colossal. Os epóxidos funcionam como uma armadilha molecular sob extrema pressão, prontos para abrir o anel ao menor ataque de um nucleófilo.</li>
+                    </ul>
+
+                    <h4>🧄 D) Tióis (R–SH)</h4>
+                    <p>São os primos de enxofre dos álcoois (o oxigênio foi substituído por um enxofre).</p>
+                    <ul>
+                        <li><strong>Nomenclatura IUPAC:</strong> Basta adicionar o sufixo "-tiol" ao nome do alcano correspondente.<br/>
+                        <em>Exemplo:</em> \\(\\text{CH}_3\\text{CH}_2\\text{–SH}\\) (Etantiol).</li>
+                        <li><strong>O "Superodor":</strong> O enxofre é muito menos eletronegativo que o oxigênio. Por isso, os tióis não fazem ligações de hidrogênio fortes e têm pontos de ebulição bem mais baixos que os álcoois. Mas o que lhes falta em atração molecular sobra em aroma! Nosso nariz é incrivelmente sensível a tióis. Pequenas quantidades de tióis são propositalmente adicionadas ao gás de cozinha (que é inodoro) para que possamos detectar vazamentos instantaneamente.</li>
+                    </ul>
                 </div>
 
                 <div id="topic-9-2" class="topic-content">
-                    <h2>9. Alcoóis, Éteres, Epóxidos e Tióis - Síntese e Reações de Alcoóis</h2>
-                    <p>Oxidação, redução e conversão em haletos.</p>
+                    <h2>9. Álcoois, Éteres, Epóxidos e Tióis - Síntese e Reações de Álcoois</h2>
+                    <h3>🛠️ 2. A Vida dos Álcoois: Síntese por Redução e Reações de Oxidação</h3>
+                    <p>Álcoois são os "camaleões" da química orgânica; eles podem ser facilmente construídos ou transformados em outros grupos funcionais.</p>
+
+                    <h4>🔄 A) Síntese de Álcoois por Redução (Construindo Álcoois)</h4>
+                    <p>Reduzir na química orgânica geralmente significa adicionar hidrogênios (H) ou remover oxigênios (O) de uma molécula. Podemos obter álcoois reduzindo compostos carbonílicos (\\(\\text{C=O}\\)):</p>
+                    <ul>
+                        <li><strong>Redução de Aldeídos:</strong> Gera Álcoois Primários (o grupo -OH fica na ponta).</li>
+                        <li><strong>Redução de Cetonas:</strong> Gera Álcoois Secundários (o grupo -OH fica no meio).</li>
+                    </ul>
+                    <p>As Duas Ferramentas de Redução (Os Doadores de Hidreto):</p>
+                    <ul>
+                        <li>\\(\\text{NaBH}_4\\) (Boroidreto de Sódio): O "suave". Reduz apenas aldeídos e cetonas. É seguro e fácil de usar no laboratório.</li>
+                        <li>\\(\\text{LiAlH}_4\\) (Hidreto de Alumínio e Lítio): O "bruto". É extremamente forte e reativo. Reduz aldeídos, cetonas, ácidos carboxílicos e ésteres diretamente a álcoois!</li>
+                    </ul>
+
+                    <h4>⚡ B) Oxidação de Álcoois (Transformando Álcoois)</h4>
+                    <p>Oxidar é o caminho inverso: remover hidrogênios ou adicionar oxigênios. O destino da oxidação depende do tipo de álcool de partida:</p>
+                    <ul>
+                        <li><strong>Álcoois Primários (Duas Etapas de Oxidação):</strong>
+                            <ul>
+                                <li>Etapa 1: O álcool vira um Aldeído.</li>
+                                <li>Etapa 2: O aldeído continua oxidando até virar um Ácido Carboxílico.</li>
+                                <li><strong>💡 Truque de Controle:</strong> Se usarmos um oxidante forte como o Reagente de Jones (\\(\\text{CrO}_3\\) em ácido sulfúrico) ou \\(\\text{KMnO}_4\\), a reação não para e vai direto ao ácido carboxílico. Se quisermos parar cirurgicamente na fase de aldeído, usamos reagentes suaves e modernos como o PCC (clorocromato de piridínio) ou a Oxidação de Swern.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Álcoois Secundários (Parada Única):</strong><br/>
+                        Oxidam-se facilmente para formar Cetonas usando qualquer um dos oxidantes citados (Jones, PCC, Swern). Como a cetona não tem mais hidrogênios no carbono carbonílico para serem removidos, a reação para por aí de forma natural!</li>
+                        <li><strong>Álcoois Terciários (Bloqueio Químico):</strong><br/>
+                        Álcoois terciários não sofrem oxidação em condições normais. Por quê? Porque o carbono que carrega o grupo –OH não possui nenhum átomo de hidrogênio ligado diretamente a ele. Sem hidrogênio para retirar, a molécula é resistente à oxidação!</li>
+                    </ul>
+                    
+                    <h3>🔄 3. Substituição de Álcoois: Conversão em Haletos de Alquila</h3>
+                    <p>Para transformar um álcool em um haleto de alquila (R–X), nos deparamos com um grande obstáculo: o grupo –OH é um péssimo grupo de saída. Ele é uma base forte (\\(\\text{OH}^-\\)), o que significa que ele se recusa a sair pacificamente da molécula ao ser atacado por um halogênio.</p>
+                    <p>Os químicos usam dois truques fantásticos para "enganar" e ativar o grupo de saída:</p>
+                    
+                    <h4>Truque 1: Ativação por Ácido (\\(\\text{HX}\\))</h4>
+                    <p>Ao misturar o álcool com um ácido forte como \\(\\text{HCl}\\), \\(\\text{HBr}\\) ou \\(\\text{HI}\\), ocorre uma reação ácido-base instantânea. O par de elétrons do oxigênio captura o próton (\\(\\text{H}^+\\)) do ácido:</p>
+                    <p style="text-align: center;">$$\\text{R–OH} + \\text{H}^+ \\rightleftharpoons \\text{R–OH}_2^+$$</p>
+                    <p>O grupo –OH agora se transformou em uma molécula de água (\\(\\text{H}_2\\text{O}\\)) acoplada! A água é uma base extremamente fraca e um excelente grupo de saída.</p>
+                    <ul>
+                        <li><strong>Álcoois Terciários:</strong> Reagem super rápido via mecanismo \\(S_N1\\), liberando água para formar um carbocátion estável, que é imediatamente atacado pelo haleto (\\(\\text{X}^-\\)).</li>
+                        <li><strong>Álcoois Primários:</strong> Reagem lentamente via mecanismo \\(S_N2\\), pois não conseguem formar carbocátions estáveis.</li>
+                    </ul>
+
+                    <h4>Truque 2: Os Agentes Ativadores Especiais (\\(\\text{PBr}_3\\) e \\(\\text{SOCl}_2\\))</h4>
+                    <p>Para evitar altas temperaturas e rearranjos indesejados de carbocátions em álcoois primários e secundários, usamos reagentes limpos de substituição:</p>
+                    <ul>
+                        <li><strong>\\(\\text{PBr}_3\\) (Tribrometo de Fósforo):</strong> Transforma álcoois primários e secundários em Brometos de Alquila através de um mecanismo \\(S_N2\\) puro, resultando na inversão de configuração (inversão de Walden).</li>
+                        <li><strong>\\(\\text{SOCl}_2\\) (Cloreto de Tionila):</strong> Converte álcoois em Cloretos de Alquila. Sob as condições de laboratório mais comuns, essa reação ocorre de forma limpa, e os subprodutos são gases (\\(\\text{SO}_2\\) e \\(\\text{HCl}\\)) que simplesmente evaporam do balão de reação, facilitando muito o isolamento do produto!</li>
+                    </ul>
                 </div>
 
                 <div id="topic-9-3" class="topic-content">
-                    <h2>9. Alcoóis, Éteres, Epóxidos e Tióis - Síntese e Abertura de Anel de Epóxidos.</h2>
-                    <p>Síntese e Abertura de Anel de Epóxidos.</p>
+                    <h2>9. Álcoois, Éteres, Epóxidos e Tióis - Síntese e Abertura de Anel de Epóxidos.</h2>
+                    <h3>💥 4. O Drama dos Epóxidos: Síntese e Abertura de Anel</h3>
+                    <p>Como vimos, os epóxidos são pequenos anéis de três membros altamente tensionados. Vamos ver como criá-los e como aproveitar essa tensão para abrir o anel de forma controlada.</p>
+
+                    <h4>🏗️ A) Síntese de Epóxidos</h4>
+                    <p>Existem duas formas principais de construir essa estrutura cíclica:</p>
+                    <ul>
+                        <li><strong>Epoxidação Direta de Alcenos:</strong> Tratamos um alceno com um peroxiácido (um ácido carboxílico com um oxigênio extra, sendo o mais famoso o \\(m\\)-CPBA). A reação ocorre em uma única etapa coordenada (mecanismo concertado), transferindo o oxigênio diretamente para a ligação dupla. Como é simultâneo, a geometria original do alceno é preservada (um alceno cis gera um epóxido cis!).</li>
+                        <li><strong>Via Haloidrina (Ataque Intramolecular):</strong> Primeiro, reagimos o alceno com bromo em água para formar uma haloidrina (uma molécula vizinha com –OH e –Br). Ao adicionarmos uma base, ela desprotona o –OH, transformando-o em um íon alcóxido (–\\(\\text{O}^-\\)). Esse oxigênio carregado faz um ataque nucleofílico interno (\\(S_N2\\) intramolecular), expulsando o bromo e fechando o anel de 3 membros.</li>
+                    </ul>
+
+                    <h4>🔨 B) Abertura do Anel: A Direção do Ataque</h4>
+                    <p>Podemos abrir o anel do epóxido usando dois caminhos diferentes. A escolha do caminho altera drasticamente onde o nucleófilo vai atacar (regiosseletividade):</p>
+                    <pre><code>       O  &lt;-- Oxigênio protonado ou neutro
+      / \
+  R-CH---CH2  &lt;-- Carbono mais substituído (esquerda) vs. menos substituído (direita)</code></pre>
+                    
+                    <h5>1. Abertura Catalisada por Ácido (Regida pela Carga Elétrica)</h5>
+                    <ul>
+                        <li><strong>O Mecanismo:</strong> O oxigênio do epóxido é protonado pelo ácido, gerando um intermediário com carga positiva. Essa carga positiva "puxa" fortemente os elétrons das ligações C–O para si.</li>
+                        <li><strong>Onde ocorre o ataque?</strong> O nucleófilo ataca o carbono MAIS substituído (aquele que tem mais grupos alquila ligados a ele).</li>
+                        <li><strong>🧠 Por que o cérebro deve lembrar disso?</strong> Embora o carbono mais substituído seja mais "apertado" (impedido), ele consegue suportar muito melhor a carga parcial positiva que se desenvolve no estado de transição (caráter de carbocátion estável). É uma decisão regida pela estabilidade da carga elétrica!</li>
+                    </ul>
+
+                    <h5>2. Abertura por Base ou Nucleófilos Fortes (Regida pelo Espaço Físico)</h5>
+                    <ul>
+                        <li><strong>O Mecanismo:</strong> Sem ácido, o oxigênio do epóxido permanece neutro e é um grupo de saída razoável apenas devido à imensa tensão do anel de 3 membros. Um nucleófilo forte (como um reagente de Grignard, um alcóxido ou íon hidróxido) ataca o epóxido diretamente por trás via mecanismo clássico \\(S_N2\\).</li>
+                        <li><strong>Onde ocorre o ataque?</strong> O nucleófilo ataca o carbono MENOS substituído (o mais livre e com menos impedimento estérico).</li>
+                        <li><strong>🧠 Por que o cérebro deve lembrar disso?</strong> Sem a protonação para enfraquecer as ligações C-O e criar cargas positivas parciais significativas, a molécula é puramente governada pelo impedimento físico. O nucleófilo escolhe o caminho mais fácil e espaçoso para atacar!</li>
+                    </ul>
+
+                    <h3>🧠 Desafio de Evocação Ativa (Consolidação de Aprendizagem)</h3>
+                    <p>Para fortalecer as sinapses do seu cérebro, tente responder a estas perguntas sem olhar o texto:</p>
+                    <ol>
+                        <li>Por que o etanol ferve a uma temperatura muito maior (\\(78^\\circ\\text{C}\\)) do que o seu isômero éter metílico (\\(-24^\\circ\\text{C}\\)), se ambos possuem exatamente o mesmo peso molecular?</li>
+                        <li>Se você tentar oxidar o 2-metilpropan-2-ol (um álcool terciário) com o forte reagente de Jones, qual produto carbonílico você espera obter?</li>
+                        <li>No laboratório, você tem um epóxido assimétrico com um lado com um grupo metila e o outro livre. Se você adicionar metóxido de sódio (\\(\\text{NaOCH}_3\\), uma base forte/nucleófilo), em qual carbono o grupo metóxi vai se ligar preferencialmente?</li>
+                    </ol>
                 </div>
 
                 <div id="topic-10-1" class="topic-content">
