@@ -1105,109 +1105,616 @@ ALCENO + [ H-X (HCl, HBr) ] ───────────> Haleto de Alquila
                     </ol>
                 </div>
 
+                <div id="topic-10" class="topic-content">
+                    <h2>10. Métodos Espectroscópicos e Análise Estrutural: Os Detetives Moleculares</h2>
+                    <p>Imagine que você recebeu uma caixa lacrada contendo uma substância desconhecida. Você não pode abrir a caixa nem enxergar as moléculas diretamente — afinal, elas são pequenas demais para qualquer microscópio comum. Como os químicos descobrem a estrutura exata de uma molécula nova?</p>
+                    <p>Eles usam a Espectroscopia e a Espectrometria! Nesta aula, vamos aprender a decifrar as três principais ferramentas que funcionam como os "detetives moleculares" da química orgânica.</p>
+                </div>
+
                 <div id="topic-10-1" class="topic-content">
                     <h2>10. Métodos Espectroscópicos e Análise Estrutural - Espectroscopia de Infravermelho (IV)</h2>
-                    <p>Identificação de grupos funcionais.</p>
+                    <h3>O Identificador de Digitais</h3>
+                    <p>A espectroscopia de infravermelho não usa raios-X nem luz visível, mas sim ondas de calor (infravermelho).</p>
+
+                    <h4>🧠 A Sacada Física: Moléculas Dançarinas</h4>
+                    <p>As ligações químicas covalentes entre os átomos não são estacas rígidas; elas se comportam como molas flexíveis. Essas molas estão constantemente vibrando. Quando jogamos luz infravermelha sobre uma molécula, as ligações absorvem essa radiação e começam a vibrar ainda mais forte (em movimentos de estiramento ou deformação angular).</p>
+                    <p>Como cada tipo de ligação precisa de uma quantidade de energia muito específica para vibrar, a radiação absorvida funciona como uma impressão digital de qual grupo funcional está presente. Essa absorção é medida em uma escala chamada número de onda (cm⁻¹).</p>
+
+                    <h4>🗺️ O Mapa de Digitais do IV (As Bandas Clássicas):</h4>
+                    <p>Para o seu cérebro memorizar sem esforço, foque nos três sinais mais famosos que aparecem no espectro de IV:</p>
+                    <ul>
+                        <li><strong>A "Língua" da Hidroxila (O—H):</strong> Álcoois e ácidos carboxílicos apresentam uma banda de absorção muito larga e arredondada entre 3200 e 3600 cm⁻¹. Ela é larga porque as moléculas de álcool fazem ligações de hidrogênio entre si, criando uma vasta distribuição de frequências.</li>
+                        <li><strong>A "Espada" da Carbonila (C=O):</strong> Se houver uma ligação dupla carbono-oxigênio (presente em aldeídos, cetonas, ésteres e ácidos carboxílicos), você verá um pico extremamente forte, profundo e estreito entre 1630 e 1780 cm⁻¹. Ele corta o gráfico como uma espada!</li>
+                        <li><strong>O "Pente" de Estiramento C—H:</strong> Os picos de ligações C—H variam dependendo da hibridização do carbono:
+                            <ul>
+                                <li>C—H de carbono \(sp^3\) (alcanos): Abaixo de 3000 cm⁻¹ (2800–3000 cm⁻¹).</li>
+                                <li>C—H de carbono \(sp^2\) (alcenos/aromáticos): Logo acima de 3000 cm⁻¹ (3000–3100 cm⁻¹).</li>
+                                <li>C—H de carbono \(sp\) (alcinos): Um pico estreito e forte em torno de 3300 cm⁻¹.</li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
 
                 <div id="topic-10-2" class="topic-content">
-                    <h2>10. Métodos Espectroscópicos e Análise Estrutural - Ressonância Magnética Nuclear (\$^1H\$-RMN e \$^{13}C\$-RMN)</h2>
-                    <p>Determinação da conectividade da estrutura carbônica.</p>
+                    <h2>10. Métodos Espectroscópicos e Análise Estrutural - Ressonância Magnética Nuclear (\(^1\text{H}\)-RMN e \(^{13}\text{C}\)-RMN)</h2>
+                    <h3>O Google Maps da Molécula</h3>
+                    <p>A RMN é a técnica mais poderosa da química orgânica. Ela nos permite mapear a conectividade, ou seja, quem está ligado a quem na estrutura carbônica. Ela usa o mesmo princípio das máquinas de ressonância magnética dos hospitais.</p>
+
+                    <h4>🧲 O Princípio do Ímã</h4>
+                    <p>Alguns núcleos atômicos, como os de Hidrogênio (\(^1\text{H}\)) e Carbono-13 (\(^{13}\text{C}\)), agem como pequenos ímãs que ficam girando em torno de seu próprio eixo. Quando colocamos a amostra dentro de um campo magnético superforte e aplicamos ondas de rádio, esses pequenos "ímãs nucleares" entram em ressonância e absorvem energia.</p>
+
+                    <h4>A) RMN de Próton (\(^1\text{H}\)-RMN): Decifrando o Código dos Hidrogênios</h4>
+                    <p>Quando analisamos um espectro de RMN de Hidrogênio, nosso cérebro deve procurar três pistas fundamentais:</p>
+                    <ul>
+                        <li><strong>Número de Sinais (Bairros Diferentes):</strong> Cada pico ou conjunto de picos representa um ambiente químico único na molécula. Hidrogênios que estão no mesmo ambiente (equivalentes) produzem um único sinal.</li>
+                        <li><strong>Deslocamento Químico (\(\delta\), em ppm) (Blindagem Eletrônica):</strong> Nos diz se o hidrogênio está perto de átomos "ladrões de elétrons" (como Oxigênio ou Cloro):
+                            <ul>
+                                <li><em>Blindado (Campo Alto/Direita - ppm baixo):</em> Hidrogênios cercados por uma nuvem eletrônica densa (como os de alcanos) ficam protegidos do campo magnético. O sinal aparece perto de 0 a 2 ppm.</li>
+                                <li><em>Desblindado (Campo Baixo/Esquerda - ppm alto):</em> Se um átomo eletronegativo puxar a nuvem eletrônica para longe do hidrogênio, ele fica desprotegido (desblindado). O sinal é empurrado para a esquerda (ppm maior, ex: 3 a 5 ppm para ligados a oxigênios, ou até 9-10 ppm para aldeídos).</li>
+                            </ul>
+                        </li>
+                        <li><strong>Integração (Tamanho da População):</strong> A área da curva de cada sinal é proporcional ao número de hidrogênios que produzem aquele sinal. Se um pico tem área 3 e outro tem área 2, sabemos que o primeiro vem de um grupo \(-\text{CH}_3\) (3 H) e o segundo de um \(-\text{CH}_2-\) (2 H).</li>
+                        <li><strong>Desdobramento ("A Fofoca dos Vizinhos" - Regra do \(N+1\)):</strong> Devido ao acoplamento spin-spin com os hidrogênios dos carbonos vizinhos, os sinais se dividem em vários picos:
+                            <ul>
+                                <li>Se um carbono tem \(N\) hidrogênios vizinhos (no carbono do lado), o sinal dele se dividirá em \(N + 1\) picos.</li>
+                                <li>Exemplo: Se o vizinho tem 2 hidrogênios, o sinal do seu átomo será um tripleto (\(2+1=3\)). Se não tiver nenhum vizinho, será um simpleto (\(0+1=1\)).</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h4>B) RMN de Carbono-13 (\(^{13}\text{C}\)-RMN): A Espinha Dorsal</h4>
+                    <p>Diferente do hidrogênio, no espectro comum de \(^{13}\text{C}\) desacoplado, cada carbono diferente produz apenas um único pico bem definido (sem desdobramentos complexos).</p>
+                    <p>Para saber quantos hidrogênios estão pendurados em cada carbono, os químicos usam uma técnica chamada DEPT, que classifica os picos de carbono diretamente em \(\text{CH}_3\), \(\text{CH}_2\), \(\text{CH}\) ou carbono quaternário (\(\text{C}\)).</p>
                 </div>
 
                 <div id="topic-10-3" class="topic-content">
                     <h2>10. Métodos Espectroscópicos e Análise Estrutural - Espectrometria de Massas (EM)</h2>
-                    <p>Massa molecular e padrões de fragmentação.</p>
+                    <h3>A Balança de Alta Precisão</h3>
+                    <p>Diferente das anteriores, a Espectrometria de Massas não é uma técnica espectroscópica (ela não usa luz ou ondas eletromagnéticas). Ela funciona como uma balança de precisão atômica que pesa e quebra as moléculas.</p>
+
+                    <h4>💥 O Bombardeio de Elétrons</h4>
+                    <p>A amostra é vaporizada e bombardeada por um feixe de elétrons de alta energia. Esse impacto arranca um elétron da nossa molécula neutra, transformando-a em um cátion radicalar carregado positivamente, conhecido como Íon Molecular (\(M^{+\bullet}\)).</p>
+
+                    <p><strong>Mágica da Balança:</strong> Molécula (M) + \(e^-\) → <strong>\(M^{+\bullet}\) (Íon Molecular)</strong> + 2\(e^-\)</p>
+
+                    <p>O espectrômetro mede a razão massa/carga (\(m/z\)). Como a carga (\(z\)) quase sempre é +1, o valor de \(m/z\) do íon molecular nos dá diretamente a massa molecular exata da substância!</p>
+
+                    <h4>✂️ O Padrão de Fragmentação (Caindo em Pedaços)</h4>
+                    <p>O íon molecular é altamente energético e instável, quebrando-se rapidamente em pedaços menores (carbocátions e radicais livres).</p>
+                    <ul>
+                        <li>Apenas os fragmentos carregados positivamente (cátions) são detectados pela máquina (os radicais neutros são invisíveis para o detector).</li>
+                        <li>A molécula sempre prefere se quebrar nos pontos que geram os carbocátions mais estáveis (como terciários ou alílicos estabilizados por ressonância).</li>
+                        <li><strong>O Pico Base:</strong> O fragmento mais estável e abundante de todos recebe a altura máxima de 100% no gráfico, e todos os outros picos são medidos em relação a ele.</li>
+                    </ul>
+
+                    <h4>👥 O Efeito Isótopo (Cloro e Bromo)</h4>
+                    <p>Alguns elementos têm isótopos naturais muito abundantes que deixam assinaturas visuais incríveis no espectro de massas:</p>
+                    <ul>
+                        <li><strong>Cloro (\(^{35}\text{Cl}\) e \(^{37}\text{Cl}\)):</strong> Apresenta dois picos para o íon molecular (\(M^{+\bullet}\) e \(M+2\)) com uma proporção de altura de 3:1.</li>
+                        <li><strong>Bromo (\(^{79}\text{Br}\) e \(^{81}\text{Br}\)):</strong> Apresenta dois picos para o íon molecular (\(M^{+\bullet}\) e \(M+2\)) com uma proporção de altura quase igual de 1:1.</li>
+                    </ul>
+                </div>
+
+                <div id="topic-11" class="topic-content">
+                    <h2>11. Aromáticos e Substituição Eletrofílica Aromática: A Fortaleza Molecular</h2>
+                    <p>Você já se perguntou por que o benzeno — uma molécula que parece ter várias ligações duplas — não reage de jeito nenhum como os alcenos que estudamos anteriormente? Se colocarmos bromo em um alceno normal, a reação ocorre instantaneamente. Mas se colocarmos bromo no benzeno... nada acontece!</p>
+                    <p>O segredo por trás desse mistério é a Aromaticidade, um estado de superestabilidade que transforma moléculas comuns em verdadeiras "fortalezas moleculares". Nesta aula, vamos desvendar como funciona essa estabilidade, como ocorrem as reações nessa fortaleza e como os "porteiros" (substituintes) controlam a entrada de novos convidados.</p>
                 </div>
 
                 <div id="topic-11-1" class="topic-content">
-                    <h2>11. Aromáticos e Substituição Eletrofílica Aromática - Aromaticidade e Regra de Hückel.</h2>
-                    <p>Aromaticidade e Regra de Hückel.</p>
+                    <h2>11. Aromáticos e Substituição Eletrofílica Aromática - Aromaticidade e a Regra de Hückel</h2>
+                    <h3>A Fortaleza Aromática</h3>
+                    <p>Historicamente, o termo "aromático" era usado porque muitos desses compostos tinham odores fortes e agradáveis (como a vanilina da baunilha). Hoje, na química, aromaticidade significa uma estabilidade termodinâmica fora do comum decorrente de elétrons que se movem livremente em um círculo perfeito.</p>
+
+                    <p>Para que uma molécula seja considerada uma "fortaleza aromática", ela precisa passar por um teste rigoroso de quatro critérios:</p>
+                    <ul>
+                        <li><strong>Ela deve ser Cíclica:</strong> Os átomos precisam estar organizados em um anel fechado.</li>
+                        <li><strong>Ela deve ser Plana:</strong> Todos os átomos do anel devem estar no mesmo plano (achatados) para que seus orbitais \(p\) fiquem paralelos, como as tábuas de uma cerca.</li>
+                        <li><strong>Ela deve ser Completamente Conjugada:</strong> Todos os átomos do anel devem possuir um orbital \(p\) disponível (ou seja, todos precisam ter hibridização \(sp^2\) ou \(sp\)). Não pode haver nenhum intruso \(sp^3\) cortando o fluxo!</li>
+                        <li><strong>Ela deve obedecer à Regra de Hückel:</strong> O número total de elétrons pi (\(\pi\)) deslocalizados no anel deve seguir a fórmula matemática:
+                            <p><strong>Número de elétrons \(\pi = 4n + 2\)</strong></p>
+                            <p>onde \(n\) deve ser um número inteiro (\(n = 0, 1, 2, 3...\)).</p>
+                        </li>
+                    </ul>
+
+                    <h4>🧠 Facilitando o cálculo do cérebro:</h4>
+                    <p>Não se confunda com o "\(n\)". O seu cérebro só precisa buscar os "números mágicos de elétrons \(\pi\)": 2, 6, 10, 14, 18... se o anel plano tiver um desses números de elétrons em ligações duplas ou pares isolados, ele é Aromático! Se tiver \(4n\) elétrons (como 4, 8, 12...), ele é extremamente instável e chamado de Antiaromático.</p>
                 </div>
 
                 <div id="topic-11-2" class="topic-content">
                     <h2>11. Aromáticos e Substituição Eletrofílica Aromática - Reações de Substituição Eletrofílica Aromática (SEAr)</h2>
-                    <p>Nitração, sulfonação, halogenação e Alquilação/Acilação de Friedel-Crafts.</p>
+                    
+                    <h3>🛡️ O Drama da SEAr: Substituição vs. Adição</h3>
+                    <p>Por que o benzeno se recusa a sofrer reações de adição?</p>
+                    <ul>
+                        <li><strong>Adição Destrói a Fortaleza:</strong> Se adicionássemos átomos ao benzeno (como fazemos com alcenos), quebraríamos uma ligação dupla permanentemente. Isso destruiria a conjugação cíclica e a molécula perderia sua preciosa aromaticidade (energia de ressonância).</li>
+                        <li><strong>Substituição Preserva a Fortaleza:</strong> Em vez de adicionar, o benzeno prefere trocar um de seus hidrogênios por outro grupo químico. Assim, o anel aromático se abre temporariamente para receber o ataque, mas se reconstrói no final! Esse processo é a Substituição Eletrofílica Aromática (SEAr).</li>
+                    </ul>
+
+                    <h4>🎬 O Mecanismo Geral em Duas Etapas:</h4>
+                    <ol>
+                        <li><strong>A Invasão (Lenta):</strong> Um eletrófilo forte (\(E^+\), sedento por elétrons) se aproxima. O anel aromático usa dois de seus elétrons \(\pi\) para atacar o eletrófilo. Isso quebra temporariamente a aromaticidade e gera um intermediário com carga positiva deslocalizada chamado de Complexo Sigma (ou Íon Arênio). Esse intermediário é instável e quer recuperar sua estabilidade a todo custo.</li>
+                        <li><strong>A Restauração (Rápida):</strong> Uma base qualquer do meio captura o próton (\(H^+\)) do carbono que foi atacado. Os elétrons que antes prendiam o hidrogênio voltam para o anel, regenerando a ligação dupla e devolvendo a paz (e a aromaticidade!) à fortaleza.</li>
+                    </ol>
+
+                    <h3>🧪 O Arsenal de Reações SEAr</h3>
+                    <p>Como o benzeno é muito estável, os eletrófilos normais não são fortes o suficiente para atacá-lo. Precisamos usar catalisadores especiais (ácidos de Lewis) para "armar" os reagentes. Aqui estão as cinco principais reações que você precisa conhecer:</p>
+                    
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse my-4">
+                            <thead>
+                                <tr class="bg-gray-100 dark:bg-zinc-800">
+                                    <th class="p-2 border">Reação</th>
+                                    <th class="p-2 border">Reagentes + Catalisador</th>
+                                    <th class="p-2 border">O Eletrófilo Ativo (\(E^+\))</th>
+                                    <th class="p-2 border">O que entra no anel?</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="p-2 border">Halogenação</td>
+                                    <td class="p-2 border">\(\text{Cl}_2 + \text{FeCl}_3\) ou \(\text{Br}_2 + \text{FeBr}_3\)</td>
+                                    <td class="p-2 border">\(\text{Cl}^+\) ou \(\text{Br}^+\) (Halogênio ativado)</td>
+                                    <td class="p-2 border">Cloro (—Cl) ou Bromo (—Br)</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2 border">Nitração</td>
+                                    <td class="p-2 border">\(\text{HNO}_3 + \text{H}_2\text{SO}_4\)</td>
+                                    <td class="p-2 border">\(\text{NO}_2^+\) (Íon Nitrônio)</td>
+                                    <td class="p-2 border">Grupo Nitro (—\(\text{NO}_2\))</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2 border">Sulfonação</td>
+                                    <td class="p-2 border">\(\text{SO}_3 + \text{H}_2\text{SO}_4\)</td>
+                                    <td class="p-2 border">\(\text{SO}_3\) (ou \(\text{HSO}_3^+\))</td>
+                                    <td class="p-2 border">Ácido Sulfônico (—\(\text{SO}_3\text{H}\))</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2 border">Alquilação de Friedel-Crafts</td>
+                                    <td class="p-2 border">\(R-\text{Cl} + \text{AlCl}_3\)</td>
+                                    <td class="p-2 border">\(R^+\) (Carbocátion)</td>
+                                    <td class="p-2 border">Grupo Alquila (—R, ex: metila)</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2 border">Acilação de Friedel-Crafts</td>
+                                    <td class="p-2 border">\(R-\text{CO}-\text{Cl} + \text{AlCl}_3\)</td>
+                                    <td class="p-2 border">\(R-C^+=O\) (Íon Acílio)</td>
+                                    <td class="p-2 border">Grupo Acila (—COR, cetona)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <p><strong>⚠️ Alerta de Pegadinha na Alquilação:</strong> Como o eletrófilo é um carbocátion comum (\(R^+\)), ele pode sofrer rearranjos para buscar uma forma mais estável (terciária ou secundária). Para evitar esse problema, os químicos preferem fazer a Acilação (cujo íon acílio é estabilizado por ressonância e nunca rearranja) e depois reduzir a cetona para alcano.</p>
                 </div>
 
                 <div id="topic-11-3" class="topic-content">
                     <h2>11. Aromáticos e Substituição Eletrofílica Aromática - Efeito dos Substituintes</h2>
-                    <p>Direcionadores orto/para e meta, e ativação/desativação do anel.</p>
+                    <h3>🚦 Os "Porteiros" do Anel</h3>
+                    <p>O que acontece se tentarmos fazer uma SEAr em um benzeno que já possui um grupo ligado a ele (como o tolueno ou o nitrobenzeno)? Esse grupo atual agirá como um porteiro, controlando a velocidade da reação e indicando onde o novo convidado irá se sentar.</p>
+
+                    <h4>A) Ativadores vs. Desativadores (Velocidade)</h4>
+                    <ul>
+                        <li><strong>Doadores de Elétrons (Ativadores):</strong> Grupos que empurram elétrons para dentro do anel aromático por ressonância (como —OH, —\(\text{NH}_2\)) ou por efeito indutivo (como —\(\text{CH}_3\)). Eles deixam o anel super rico em elétrons e faminto por eletrófilos, tornando a reação muito mais rápida do que com o benzeno puro.</li>
+                        <li><strong>Retiradores de Elétrons (Desativadores):</strong> Grupos gananciosos que puxam elétrons para fora do anel por efeito indutivo ou ressonância (como —\(\text{NO}_2\), —COOH, —CN). Eles empobrecem o anel, tornando a reação muito mais lenta e difícil.</li>
+                    </ul>
+
+                    <h4>B) Direcionamento: Onde sentar? (Orto, Meta ou Para)</h4>
+                    <p>O anel benzênico possui três posições relativas ao substituinte inicial: Orto (vizinho imediato, 1,2), Meta (um carbono de intervalo, 1,3) e Para (oposto direto, 1,4).</p>
+                    
+                    <ul>
+                        <li><strong>Direcionadores Orto/Para (Geralmente Ativadores):</strong> Grupos doadores de elétrons direcionam o novo ataque para as posições orto e para. Isso ocorre porque eles conseguem doar densidade eletrônica diretamente para estabilizar a carga positiva do Complexo Sigma gerado nessas posições.
+                            <br/><em>Exceção Importante:</em> Os Halogênios (—F, —Cl, —Br, —I) são retiradores de elétrons por efeito indutivo (por isso são desativadores fracos), mas possuem pares de elétrons livres para fazer ressonância. Portanto, eles são desativadores, mas direcionam Orto/Para!
+                        </li>
+                        <li><strong>Direcionadores Meta (Geralmente Desativadores):</strong> Grupos retiradores de elétrons desativam o anel por completo, mas as posições orto e para sofrem muito mais, pois gerariam uma carga positiva instável bem ao lado do grupo retirador (que também é positivo/deficiente). Assim, o eletrófilo é forçado a atacar na posição meta, que é o caminho menos instável disponível.</li>
+                    </ul>
+                </div>
+
+                <div id="topic-12" class="topic-content">
+                    <h2>12. Aldeídos e Cetonas: O Superpoder da Carbonila</h2>
+                    <p>No seu dia a dia, você já deve ter sentido o aroma característico de canela, baunilha ou amêndoas. O que essas fragrâncias deliciosas têm em comum? Todas são causadas por moléculas pertencentes à família dos aldeídos e cetonas!</p>
+                    <p>Hoje, vamos usar as técnicas de fatiamento de informação (chunking) e metáforas espaciais para destrinchar o grupo funcional mais importante de toda a química orgânica: a carbonila (\(\text{C}=\text{O}\)). Prepare o seu cérebro para aprender como esse grupo atrai parceiros químicos e realiza transformações fantásticas!</p>
                 </div>
 
                 <div id="topic-12-1" class="topic-content">
-                    <h2>12. Aldeídos e Cetonas (Adição Nucleofílica) - Estrutura e Reatividade do Grupo Carbonila.</h2>
-                    <p>Estrutura e Reatividade do Grupo Carbonila.</p>
+                    <h2>12. Aldeídos e Cetonas (Adição Nucleofílica) - Estrutura e Reatividade do Grupo Carbonila</h2>
+                    <h3>⚡ O Centro de Atração</h3>
+                    <p>A carbonila é composta por um átomo de carbono unido a um oxigênio por uma ligação dupla (uma ligação \(\sigma\) e uma ligação \(\pi\)). Ela possui um arranjo triangular plano, com ângulos de ligação de aproximadamente 120°.</p>
+
+                    <h4>Por que a carbonila é tão reativa?</h4>
+                    <ul>
+                        <li><strong>O Cabo de Guerra Eletrônico (Eletronegatividade):</strong> O oxigênio é extremamente eletronegativo. Ele atrai fortemente os elétrons da ligação dupla para perto de si. Isso cria uma divisão de cargas muito acentuada:
+                            <ul>
+                                <li>O oxigênio ganha uma carga parcial negativa (\(\delta^-\)).</li>
+                                <li>O carbono fica carente, com uma carga parcial positiva (\(\delta^+\)).</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <p><strong>🧠 A Analogia do Ímã:</strong> Pense no carbono da carbonila como um centro magnético positivo. Ele é o alvo perfeito para qualquer molécula rica em elétrons (uma base de Lewis ou nucleófilo). Como a molécula é plana, o nucleófilo pode atacar facilmente por cima ou por baixo.</p>
+
+                    <h4>⚖️ Aldeídos vs. Cetonas: Quem é mais rápido?</h4>
+                    <p>Os aldeídos (onde o carbono está ligado a pelo menos um hidrogênio) são significativamente mais reativos do que as cetonas (onde o carbono está preso a dois grupos de carbono). O cérebro pode guardar isso por dois motivos muito lógicos:</p>
+                    <ul>
+                        <li><strong>Fator Estérico (Espaço Físico):</strong> O hidrogênio do aldeído é minúsculo. Já as cetonas têm grupos alquila volumosos que agem como guarda-costas, bloqueando fisicamente a chegada do nucleófilo.</li>
+                        <li><strong>Fator Eletrônico (Estabilidade):</strong> Os grupos alquila são doadores de densidade eletrônica (efeito indutivo doador). Nas cetonas, esses grupos ajudam a diminuir a carga positiva do carbono carbonílico, tornando-o "menos faminto" por elétrons. No aldeído, o carbono continua muito mais positivo e reativo.</li>
+                    </ul>
                 </div>
 
                 <div id="topic-12-2" class="topic-content">
                     <h2>12. Aldeídos e Cetonas (Adição Nucleofílica) - Adição Nucleofílica</h2>
-                    <p>Formação de hemiacetais/acetais, iminas, enaminas e halidrilas.</p>
+                    <h3>🔄 O Mecanismo Geral</h3>
+                    <p>Diferente dos alcenos que sofrem adição eletrofílica (onde a ligação dupla rica em elétrons ataca), na carbonila ocorre a adição nucleofílica (onde o carbono pobre em elétrons é atacado).</p>
+
+                    <p>O mechanism básico ocorre em duas etapas rápidas:</p>
+                    <ol>
+                        <li><strong>O Ataque:</strong> O nucleófilo (com seu par de elétrons) ataca o carbono da carbonila. A ligação dupla \(\pi\) se rompe, enviando os elétrons inteiramente para o oxigênio, que ganha uma carga negativa estável (formando um intermediário tetraédrico).</li>
+                        <li><strong>A Protonação:</strong> O oxigênio carregado negativamente captura um próton (\(\text{H}^+\)) do meio reacional para neutralizar sua carga, gerando o produto final estável.</li>
+                    </ol>
+
+                    <h3>🧩 As Reações de Adição Nucleofílica na Prática</h3>
+                    <p>Vejamos como diferentes parceiros (nucleófilos) se adicionam à carbonila:</p>
+
+                    <h4>A) Álcoois: Formando Hemiacetais e Acetais</h4>
+                    <p>Quando um aldeído ou cetona reage com um álcool (\(\text{R}'-\text{OH}\)), ocorre um equilíbrio químico dinâmico:</p>
+                    <ul>
+                        <li><strong>Hemiacetal:</strong> Formado pela adição de 1 equivalente de álcool. A molécula resultante possui um grupo hidroxila (\(-\text{OH}\)) e um grupo éter (\(-\text{OR}\)) ligados ao mesmo carbono.</li>
+                        <li><strong>Acetal:</strong> Se houver excesso de álcool e um catalisador ácido, o hemiacetal perde uma molécula de água e reage com um segundo equivalente de álcool. O resultado é uma molécula com dois grupos éter (\(-\text{OR}\)) presos ao mesmo carbono.</li>
+                    </ul>
+                    <p><strong>💡 Aplicação Prática:</strong> Acetais cíclicos são amplamente usados como "grupos protetores" em sínteses de compostos orgânicos complexos. Eles protegem a reatividade da carbonila de bases fortes e podem ser removidos facilmente com uma lavagem ácida.</p>
+
+                    <h4>B) Aminas Primárias vs. Secundárias: Iminas e Enaminas</h4>
+                    <p>As aminas possuem um par de elétrons livre no nitrogênio que ataca a carbonila com vigor.</p>
+                    <ul>
+                        <li><strong>Aminas Primárias (\(\text{R}-\text{NH}_2\)) → Iminas:</strong> O nitrogênio ataca a carbonila, seguido pela eliminação de uma molécula de água, formando uma imina (que possui uma ligação dupla carbono-nitrogênio, \(\text{C}=\text{N}\)).</li>
+                        <li><strong>Aminas Secundárias (\(\text{R}_2\text{NH}\)) → Enaminas:</strong> Como a amina secundária tem apenas um hidrogênio ligado ao nitrogênio, ela não consegue formar uma ligação dupla direta após perder a água. Em vez disso, a molécula elimina um hidrogênio do carbono vizinho (carbono \(\alpha\)), formando uma enamina (um grupo amino ligado a uma ligação dupla carbono-carbono, \(\text{C}=\text{C}-\text{N}\)).</li>
+                    </ul>
+
+                    <h4>C) Cianeto de Hidrogênio (\(\text{HCN}\)): Formando Cianidrinas (ou Halidrilas/Cianidrilas)</h4>
+                    <p>Quando o íon cianeto (\(^-\text{CN}\)), um nucleófilo forte de carbono, ataca a carbonila, ele se adiciona formando uma cianidrina (também historicamente conhecida como cianidrila).</p>
+                    <ul>
+                        <li>A molécula resultante possui um grupo nitrila (\(-\text{CN}\)) e um grupo álcool (\(-\text{OH}\)) no mesmo carbono.</li>
+                        <li>As cianidrinas são importantíssimas porque o grupo nitrila pode ser facilmente hidrolisado em um ácido carboxílico, aumentando a cadeia carbônica de forma controlada.</li>
+                    </ul>
                 </div>
 
                 <div id="topic-12-3" class="topic-content">
-                    <h2>12. Aldeídos e Cetonas (Adição Nucleofílica) - Reações com Reagentes de Grignard e Reduções.</h2>
-                    <p>Reações com Reagentes de Grignard e Reduções.</p>
+                    <h2>12. Aldeídos e Cetonas (Adição Nucleofílica) - Reações com Reagentes de Grignard e Reduções</h2>
+                    <h3>🛠️ Construindo e Transformando</h3>
+                    
+                    <h4>A) Reagentes de Grignard: O "Super Alqueto"</h4>
+                    <p>Os Reagentes de Grignard (\(\text{R}-\text{MgX}\)) são organometálicos onde o carbono está diretamente ligado ao magnésio. Como o magnésio é muito eletropositivo, a ligação é altamente polarizada, dando ao carbono uma carga quase puramente negativa: um carbânion extremamente forte e nucleofílico!</p>
+                    <ul>
+                        <li><strong>Ataque à Carbonila:</strong> O grupo alquila (\(\text{R}^-\)) ataca o carbono carbonílico. O magnésio se coordena temporariamente ao oxigênio.</li>
+                        <li><strong>Tratamento Ácido (Lavagem):</strong> A adição de água/ácido protona o oxigênio, formando um álcool.</li>
+                        <li>Reagir Grignard com <strong>Formaldeído (Metanal)</strong> gera um <strong>Álcool Primário</strong>.</li>
+                        <li>Reagir com <strong>outros Aldeídos</strong> gera um <strong>Álcool Secundário</strong>.</li>
+                        <li>Reagir com <strong>Cetonas</strong> gera um <strong>Álcool Terciário</strong>.</li>
+                    </ul>
+
+                    <h4>B) Reduções: A Adição de Hidretos (\(\text{H}^-\))</h4>
+                    <p>Para transformar aldeídos e cetonas em álcoois sem aumentar a cadeia carbônica, adicionamos o íon hidreto (\(\text{H}^-\)) usando doadores como o boroidreto de sódio (\(\text{NaBH}_4\)) e o hidreto de lítio e alumínio (\(\text{LiAlH}_4\)).</p>
+                    <ul>
+                        <li>Aldeídos são reduzidos a <strong>Álcoois Primários</strong>.</li>
+                        <li>Cetonas são reduzidas a <strong>Álcoois Secundários</strong>.</li>
+                    </ul>
+                </div>
+
+                <div id="topic-13" class="topic-content">
+                    <h2>13. Ácidos Carboxílicos e seus Derivados: O Império da Carbonila e a Escada da Reatividade</h2>
+                    <p>Bem-vindo a uma das áreas mais nobres da Química Orgânica! Se você já sentiu o cheiro azedo do vinagre (ácido acético) ou o aroma delicioso de uma banana madura (acetato de isopentila, um éster), você já interagiu diretamente com os ácidos carboxílicos e seus derivados.</p>
+                    <p>Nesta aula, vamos usar o método de esquemas visuais e a metáfora da escada para entender como essas moléculas funcionam, por que são tão ácidas e como se transformam umas nas outras.</p>
                 </div>
 
                 <div id="topic-13-1" class="topic-content">
-                    <h2>13. Ácidos Carboxílicos e Derivados - Estrutura, Nomenclatura e Acidez dos Ácidos Carboxílicos.</h2>
-                    <p>Estrutura, Nomenclatura e Acidez dos Ácidos Carboxílicos.</p>
+                    <h2>13. Ácidos Carboxílicos e Derivados - Estrutura, Nomenclatura e Acidez dos Ácidos Carboxílicos</h2>
+                    <h3>🏛️ A Dupla Identidade e a Força da Acidez</h3>
+                    <p>Os ácidos carboxílicos possuem o grupo funcional carboxila (\(-\text{COOH}\)). Esse nome não é por acaso: ele é a fusão de uma carbonila (\(\text{C}=\text{O}\)) com uma hidroxila (\(-\text{OH}\)).</p>
+
+                    <h4>A) Nomenclatura sem Mistérios</h4>
+                    <p><strong>Prefixo + Infixo + sufixo -OICO (antecedido pela palavra Ácido).</strong></p>
+                    <ul>
+                        <li><strong>1 Carbono:</strong> Ácido metanoico (nome comum: ácido fórmico, das formigas).</li>
+                        <li><strong>2 Carbonos:</strong> Ácido etanoico (nome comum: ácido acético, do vinagre).</li>
+                    </ul>
+
+                    <h4>B) Por que eles são tão ácidos? (O Segredo da Ressonância)</h4>
+                    <p>Se compararmos o ácido acético com o etanol (o álcool comum), o ácido é cerca de 100 bilhões de vezes mais ácido! Por que essa diferença colossal se ambos têm o grupo \(-\text{OH}\)?</p>
+                    <ul>
+                        <li><strong>O Álcool (Etanol):</strong> Quando perde o seu próton (\(\text{H}^+\)), a carga negativa fica "presa" em um único átomo de oxigênio. É uma carga pesada e instável.</li>
+                        <li><strong>O Ácido Carboxílico:</strong> Quando ele doa o \(\text{H}^+\), o íon formado é o carboxilato. A carga negativa restante não fica presa; ela se espalha (deslocaliza) perfeitamente através de ressonância entre dois oxigênios altamente eletronegativos.</li>
+                    </ul>
+                    <p><strong>🧠 Analogia Neurocognitiva:</strong> Imagine carregar uma caixa pesada sozinho (álcool) versus dividir o peso exatamente na metade com um amigo muito forte (ressonância do carboxilato). A divisão do peso estabiliza o sistema, tornando a perda do próton muito mais fácil!</p>
                 </div>
 
                 <div id="topic-13-2" class="topic-content">
                     <h2>13. Ácidos Carboxílicos e Derivados - Derivados de Carbonila</h2>
-                    <p>Haletos de acila, anidridos, ésteres e amidas.</p>
+                    <h3>🪜 A Família dos Derivados de Acila: A Escada da Reatividade</h3>
+                    <p>Os derivados de ácidos carboxílicos são moléculas onde o grupo \(-\text{OH}\) da carboxila é substituído por outro átomo ou grupo (\(\text{Y}\)).</p>
+
+                    <p>Para memorizar a reatividade deles, nós usamos a Metáfora da Escada de Reatividade (do mais reativo/instável no topo, para o mais estável/menos reativo na base):</p>
+                    
+                    <pre class="bg-gray-100 dark:bg-zinc-800 p-4 rounded-md my-4 font-mono text-sm overflow-x-auto">
+     [ TOPO ]
+        |
+        |---&gt; 1. Haletos de Acila (Ex: Cloreto de Acetila) - Super instáveis!
+        |---&gt; 2. Anidridos de Ácido - Altamente reativos.
+        |---&gt; 3. Ésteres (Cheiros de frutas!) - Moderadamente estáveis.
+        |---&gt; 4. Amidas (Formam as proteínas) - Fortes e extremamente estáveis!
+        |
+     [ BASE ]
+                    </pre>
+
+                    <h4>Por que essa ordem existe?</h4>
+                    <p>Tudo depende de dois fatores: quão bom o grupo \(\text{Y}\) é como grupo de saída e quanto ele consegue compartilhar elétrons com a carbonila por ressonância:</p>
+                    <ul>
+                        <li><strong>Haletos de Acila (\(R-\text{COCl}\)):</strong> O cloro (\(\text{Cl}^-\)) é um excelente grupo de saída (estável sozinho) e não compartilha bem seus elétrons com a carbonila. Resultado: o carbono fica muito desprotegido e altamente reativo.</li>
+                        <li><strong>Amidas (\(R-\text{CONH}_2\)):</strong> O nitrogênio é um péssimo grupo de saída e adora compartilhar seu par de elétrons com a carbonila por ressonância. Isso blinda o carbono de ataques externos, tornando as amidas as mais estáveis da família. É por isso que nossas proteínas (feitas de ligações amídicas/peptídicas) não se desfazem na água!</li>
+                    </ul>
                 </div>
 
                 <div id="topic-13-3" class="topic-content">
                     <h2>13. Ácidos Carboxílicos e Derivados - Substituição Nucleofílica Acílica</h2>
-                    <p>Interconversão entre os derivados.</p>
+                    <h3>🔄 O Mecanismo da Interconversão</h3>
+                    <p>Ao contrário dos aldeídos e cetonas (que sofrem adição porque não têm grupo de saída), os derivados de ácido sofrem Substituição Nucleofílica Acílica (SNA).</p>
+
+                    <h4>O Mecanismo em 2 Passos Simples:</h4>
+                    <ol>
+                        <li><strong>O Ataque (Abertura):</strong> Um nucleófilo ataca o carbono da carbonila, empurrando os elétrons da ligação \(\pi\) para o oxigênio. Isso forma um intermediário tetraédrico carregado negativamente.</li>
+                        <li><strong>A Expulsão (Reconstituição):</strong> A carga negativa do oxigênio "desce" de volta para refazer a ligação dupla (\(\text{C}=\text{O}\)), e o melhor grupo de saída (\(\text{Y}\)) é expulso da molécula.</li>
+                    </ol>
+
+                    <h4>⚠️ A Regra de Ouro da Interconversão ("A Gravidade Química")</h4>
+                    <p>Você pode descer a escada de reatividade facilmente, mas não pode subir sem gastar muita energia ou usar reagentes especiais.</p>
+                    <ul>
+                        <li><strong>Permitido (Descer a escada):</strong> Converter um Cloreto de Acila (topo) em um Éster ou uma Amida (base) é uma reação rápida e espontânea.</li>
+                        <li><strong>Proibido/Difícil (Subir a escada):</strong> Tentar transformar uma Amida (super estável) diretamente em um Cloreto de Acila usando cloreto de sódio não funciona. Você precisa primeiro hidrolisar a amida de volta para o ácido carboxílico e depois ativá-lo com um reagente forte (como \(\text{SOCl}_2\)).</li>
+                    </ul>
+                </div>
+
+                <div id="topic-14" class="topic-content">
+                    <h2>14. Química de Enóis e Enolatos: O Poder Oculto da Posição Alfa</h2>
+                    <p>Até agora, você aprendeu que o carbono da carbonila (\(\text{C}=\text{O}\)) é um eletrófilo, ou seja, um centro que adora receber ataques de nucleófilos. Mas e se eu dizer que os carbonos vizinhos à carbonila escondem um "superpoder" que inverte esse jogo, transformando a molécula em um poderoso nucleófilo?</p>
+                    <p>Nesta aula, vamos desvendar a Química da Posição Alfa (\(\alpha\)), onde aprenderemos como a proximidade da carbonila torna hidrogênios ácidos e como podemos usar isso para construir moléculas gigantes por meio de reações de condensação.</p>
                 </div>
 
                 <div id="topic-14-1" class="topic-content">
-                    <h2>14. Química de Enóis e Enolatos - Tautomerização Ceto-Enólica.</h2>
-                    <p>Tautomerização Ceto-Enólica.</p>
+                    <h2>14. Química de Enóis e Enolatos - Tautomerização Ceto-Enólica</h2>
+                    <h3>🔄 O Equilíbrio Dinâmico</h3>
+                    <p>Imagine uma molécula que consegue mudar de forma espontaneamente, como um metamorfo. Isso é a tautomerização ceto-enólica.</p>
+
+                    <ul>
+                        <li><strong>O Carbono Alfa (\(\alpha\)):</strong> É o átomo de carbono diretamente ligado ao grupo carbonila (\(\text{C}=\text{O}\)). Os hidrogênios ligados a ele são chamados de hidrogênios alfa (\(\text{H}_\alpha\)).</li>
+                        <li><strong>Por que eles são tão ácidos?</strong> Normalmente, hidrogênios ligados a carbonos comuns (\(\text{sp}^3\)) são quase impossíveis de remover (\(\text{pK}_a \approx 50\)). No entanto, os \(\text{H}_\alpha\) têm um \(\text{pK}_a\) que varia de \(16\) a \(20\)!</li>
+                    </ul>
+
+                    <p><strong>🧠 A Explicação Neurocognitiva:</strong> Quando uma base remove o \(\text{H}_\alpha\), a carga negativa resultante (o par de elétrons) não fica presa no carbono. Ela é "sugada" por ressonância em direção ao oxigênio eletronegativo da carbonila. Essa carga dividida estabiliza o íon resultante, chamado de <strong>ânion enolato</strong>.</p>
+
+                    <h4>Ceto vs. Enol</h4>
+                    <p>A tautomerização é o equilíbrio químico entre duas formas isoméricas que diferem apenas na posição de um próton e de uma ligação dupla:</p>
+                    <ul>
+                        <li><strong>Forma Ceto (Majoritária):</strong> Apresenta o grupo carbonila estável (\(\text{C}=\text{O}\)). Para a grande maioria dos aldeídos e cetonas simples, o equilíbrio favorece esmagadoramente esta forma (mais de 99%), pois a ligação \(\text{C}=\text{O}\) é muito forte.</li>
+                        <li><strong>Forma Enol (Minoritária):</strong> Apresenta uma ligação dupla carbono-carbono (\(\text{C}=\text{C}\)) e um grupo álcool (\(-\text{OH}\)) diretamente ligado a ela. Ela é altamente reativa.</li>
+                    </ul>
                 </div>
 
                 <div id="topic-14-2" class="topic-content">
-                    <h2>14. Química de Enóis e Enolatos - Halogenação na Posição Alfa.</h2>
-                    <p>Halogenação na Posição Alfa.</p>
+                    <h2>14. Química de Enóis e Enolatos - Halogenação na Posição Alfa</h2>
+                    <h3>🧪 Controlando a Reatividade</h3>
+                    <p>Podemos substituir os hidrogênios alfa por halogênios (\(\text{Cl}, \text{Br}, \text{I}\)) usando meio ácido ou básico:</p>
+
+                    <h4>Halogenação Catalisada por Ácido (Mono-halogenação):</h4>
+                    <ul>
+                        <li>O meio ácido faz com que a reação passe pela forma <strong>enol</strong> neutra.</li>
+                        <li>Assim que o primeiro halogênio é adicionado ao carbono \(\alpha\), ele (sendo muito eletronegativo) passa a retirar densidade eletrônica do sistema. Isso dificulta a protonação e impede que um segundo halogênio entre.</li>
+                        <li><strong>Resultado:</strong> A reação para perfeitamente na mono-halogenação.</li>
+                    </ul>
+
+                    <h4>Halogenação Promovida por Base (A Reação do Halofórmio):</h4>
+                    <ul>
+                        <li>O meio básico gera o intermediário <strong>enolato</strong> carregado negativamente.</li>
+                        <li>Quando um halogênio entra, o efeito indutivo dele torna os hidrogênios alfa restantes <em>ainda mais</em> ácidos!</li>
+                        <li><strong>Resultado:</strong> A base remove os outros hidrogênios instantaneamente, levando à poli-halogenação. Se partirmos de uma metilcetona (\(\text{R}-\text{CO}-\text{CH}_3\)), todos os três hidrogênios do grupo metila são substituídos por halogênio, gerando um excelente grupo de saída (\(-\text{CX}_3\)). O oxigênio ataca e expulsa o grupo, formando um ácido carboxílico e um halofórmio (\(\text{CHX}_3\), como o clorofórmio \(\text{CHCl}_3\)).</li>
+                    </ul>
                 </div>
 
                 <div id="topic-14-3" class="topic-content">
                     <h2>14. Química de Enóis e Enolatos - Reações de Condensação</h2>
-                    <p>Condensação Aldólica, Condensação de Claisen e Reações de Michael.</p>
+                    <h3>🤝 O "Match" Molecular</h3>
+                    <p>As reações de condensação são as ferramentas favoritas dos químicos sintéticos e da própria natureza para construir novas ligações carbono-carbono e formar estruturas complexas.</p>
+
+                    <h4>A) Condensação Aldólica (Aldeído + Aldeído)</h4>
+                    <ul>
+                        <li><strong>O Encontro:</strong> Uma base remove o hidrogênio \(\alpha\) de uma molécula de aldeído, transformando-a em um nucleófilo (enolato). Esse enolato ataca a carbonila de outra molécula de aldeído idêntica (que age como eletrófilo).</li>
+                        <li><strong>O Produto Inicial:</strong> Forma-se um \(\beta\)-hidróxi-aldeído (conhecido como <strong>aldol</strong>, pois tem funções álcool e aldeído).</li>
+                        <li><strong>A Desidratação:</strong> Sob aquecimento, o aldol perde uma molécula de água (\(\text{H}_2\text{O}\)) de forma muito fácil, gerando um composto \(\alpha,\beta\)-insaturado (uma ligação dupla \(\text{C}=\text{C}\) perfeitamente conjugada com a \(\text{C}=\text{O}\), o que garante enorme estabilidade energética).</li>
+                    </ul>
+
+                    <h4>B) Condensação de Claisen (Éster + Éster)</h4>
+                    <ul>
+                        <li><strong>O Conceito:</strong> Semelhante à aldólica, mas ocorre utilizando ésteres.</li>
+                        <li><strong>O Mecanismo:</strong> O enolato de um éster ataca outra molécula de éster. A grande diferença aqui é que o éster possui um grupo de saída (alcóxido, \(-\text{OR}\)). Em vez de o oxigênio simplesmente receber o próton, ele se restabelece como carbonila e expulsa o grupo de saída.</li>
+                        <li><strong>O Produto:</strong> Um \(\beta\)-ceto-éster (uma molécula contendo uma cetona e um éster separados por um único carbono).</li>
+                    </ul>
+
+                    <h4>C) Reação de Michael (Adição Conjugada)</h4>
+                    <p>O que acontece quando o eletrófilo é um composto carbonílico \(\alpha,\beta\)-insaturado?</p>
+                    <ul>
+                        <li><strong>O Dilema dos Ataques:</strong> Nucleófilos muito fortes atacam diretamente o carbono da carbonila (chamado ataque 1,2). No entanto, nucleófilos estabilizados e mais "suaves" (como enolatos de \(\beta\)-diésteres) preferem atacar o carbono beta (\(\beta\)), que possui uma carga parcial positiva por causa da ressonância com a carbonila.</li>
+                        <li><strong>O Ataque de Michael:</strong> Esse ataque ao carbono \(\beta\) é chamado de adição 1,4 ou adição conjugada. Ele une as duas partes de forma elegante e preserva o grupo carbonila intacto.</li>
+                    </ul>
+                </div>
+
+                <div id="topic-15" class="topic-content">
+                    <h2>15. O Poder Nitrogenado das Aminas: Estrutura, Reatividade e o Trampolim Molecular</h2>
+                    <p>Seja muito bem-vindo! Hoje vamos desvendar um grupo de moléculas orgânicas fascinantes e extremamente importantes para a vida, a medicina e a indústria: as Aminas. Elas são as responsáveis pelo aroma característico do peixe fresco (e do peixe passado!), pela estrutura de neurotransmissores como a dopamina e a adrenalina, e por muitos dos medicamentos que salvam vidas todos os dias.</p>
+                    <p>Para garantir que seu cérebro compreenda e memorize esses conceitos tridimensionais dinâmicos sem esforço, vamos usar metáforas ativas, fatiamento de informação (chunking) e mapas de reatividade.</p>
                 </div>
 
                 <div id="topic-15-1" class="topic-content">
-                    <h2>15. Aminas - Estrutura, Nomenclatura e Basicidade.</h2>
-                    <p>Estrutura, Nomenclatura e Basicidade.</p>
+                    <h2>15. Aminas - Estrutura, Nomenclatura e Basicidade</h2>
+                    <h3>🔍 A "Força" das Aminas</h3>
+                    <p>Imagine as aminas como filhas ou derivadas da amônia (\(\text{NH}_3\)), onde um ou mais átomos de hidrogênio foram substituídos por cadeias de carbono (grupos alquila ou arila).</p>
+
+                    <h4>A) Classificação e Nomenclatura: Quem é Quem?</h4>
+                    <p>Ao contrário dos álcoois (onde a classificação depende de qual carbono carrega a hidroxila), nas aminas nós contamos quantos carbonos estão ligados diretamente ao Nitrogênio:</p>
+                    <ul>
+                        <li><strong>Amina Primária (\(R-\text{NH}_2\)):</strong> O nitrogênio está ligado a apenas 1 carbono.</li>
+                        <li><strong>Amina Secundária (\(R_2-\text{NH}\)):</strong> O nitrogênio liga-se a 2 carbonos.</li>
+                        <li><strong>Amina Terciária (\(R_3-\text{N}\)):</strong> O nitrogênio liga-se a 3 carbonos.</li>
+                        <li><strong>Sal de Amônio Quaternário (\(R_4-\text{N}^+\ \text{X}^-\)):</strong> O nitrogênio doa seu par de elétrons livre para se ligar a 4 carbonos, adquirindo uma carga positiva permanente.</li>
+                    </ul>
+                    <p><strong>Como nomear?</strong> Na regra oficial (IUPAC), basta identificar os grupos ligados ao nitrogênio em ordem alfabética seguidos do sufixo <strong>-amina</strong> (ex: metilamina, etilmetilamina) ou tratar o grupo \(\text{NH}_2\) como um substituinte chamado <strong>amino-</strong> em cadeias mais longas.</p>
+
+                    <h4>B) A Geometria do "Guarda-Chuva ao Vento"</h4>
+                    <p>O nitrogênio das aminas possui hibridização \(\text{sp}^3\), o que nos daria uma geometria tetraédrica. No entanto, um desses quatro "braços" é ocupado por um par de elétrons não compartilhado (isolado). Isso faz com que a geometria real da molécula seja piramidal trigonal (como um tripé onde o par de elétrons fica no topo).</p>
+                    <p><strong>🧠 O Fenômeno da Inversão de Nitrogênio:</strong> Devido ao tamanho relativamente pequeno do nitrogênio, as aminas sofrem uma oscilação ultra-rápida chamada inversão piramidal. Pense nisso como um guarda-chuva que vira do avesso com um vento forte e depois volta, passando por um estado de transição plano. Esse processo é tão rápido em temperatura ambiente que impede que aminas quirais simples com três grupos diferentes sejam isoladas como enantiômeros puros!</p>
+
+                    <h4>C) O Jogo da Basicidade (Brønsted-Lowry e Lewis)</h4>
+                    <p>O grande trunfo das aminas é o seu par de elétrons livre. Esse par de elétrons adora capturar prótons (\(\text{H}^+\)), agindo como uma excelente base. Mas a força dessa base varia muito de acordo com o "vizinhança" molecular:</p>
+                    <ul>
+                        <li><strong>Alquilaminas (Bases Fortes):</strong> Grupos de carbono (alquilas) empurram densidade eletrônica em direção ao nitrogênio (efeito indutivo doador). Isso deixa o par de elétrons ainda mais disponível e "faminto" por prótons. Por isso, alquilaminas simples são bases mais fortes que a amônia.</li>
+                        <li><strong>Arilaminas / Anilina (Bases Fracas):</strong> Quando o nitrogênio está ligado diretamente a um anel aromático (como na anilina), seu par de elétrons não fica parado. Ele se deslocaliza por ressonância para dentro do anel benzênico. Se os elétrons estão ocupados passeando pelo anel, eles não estão disponíveis para capturar prótons, tornando as arilaminas muito menos básicas.</li>
+                        <li><strong>Amidas (Neutras!):</strong> Em uma amida (\(R-\text{CO}-\text{NH}_2\)), o par de elétrons do nitrogênio é fortemente atraído por ressonância pela carbonila (\(\text{C}=\text{O}\)) vizinha. Essa deslocalização é tão intensa que as amidas praticamente não apresentam basicidade em condições normais.</li>
+                    </ul>
                 </div>
 
                 <div id="topic-15-2" class="topic-content">
                     <h2>15. Aminas - Síntese e Reações de Aminas</h2>
-                    <p>Alkilação, Eliminação de Hofmann e Reação de Diazotação.</p>
+                    <h3>🛠️ Construindo e Transformando Aminas</h3>
+
+                    <h4>A) Alquilação de Aminas (O Perigo do Excesso)</h4>
+                    <p>A forma mais direta de colocar uma cadeia de carbono em uma amina é fazê-la reagir com um haleto de alquila (\(R-\text{X}\)) por uma substituição nucleofílica (\(\text{S}_N2\)).</p>
+                    <p><strong>O Problema:</strong> O produto formado (uma amina secundária) ainda possui um par de elétrons livre e é mais nucleofílico que a amina de partida! Ela atacará outra molécula de haleto. Esse efeito dominó continua até que toda a amina seja convertida em um sal de amônio quaternário (\(R_4\text{N}^+\)). Para evitar isso e obter apenas aminas primárias, os químicos costumam usar um grande excesso de amônia no meio reagente.</p>
+
+                    <h4>B) Eliminação de Hofmann (O "Sumô" Molecular)</h4>
+                    <p>Em capítulos anteriores, vimos que reações de eliminação clássicas (como a desidratação de álcoois) seguem a Regra de Zaitsev, produzindo o alceno mais estável (mais substituído). A Eliminação de Hofmann faz exatamente o oposto! Ela gera preferencialmente o alceno menos substituído (mais exposto/menos estável).</p>
+                    <p><strong>Como funciona?</strong></p>
+                    <ol>
+                        <li>Primeiro, tratamos uma amina com excesso de iodeto de metila (\(\text{CH}_3\text{I}\)) para transformá-la em um sal de amônio quaternário volumoso contendo o grupo \(-\text{N}^+(\text{CH}_3)_3\) (um ótimo grupo de saída).</li>
+                        <li>Adicionamos óxido de prata úmido (\(\text{Ag}_2\text{O}, \text{H}_2\text{O}\)) para substituir o contra-íon haleto por uma base forte, o hidróxido (\(\text{OH}^-\)).</li>
+                        <li>Sob aquecimento, o hidróxido remove um hidrogênio ácido da posição beta (\(\beta\)).</li>
+                    </ol>
+                    <p><strong>🧠 A Metáfora do Sumô:</strong> Como o grupo de saída nitrogenado (\(-\text{N}^+(\text{CH}_3)_3\)) é extremamente grande e volumoso (como um lutador de sumô), o espaço ao redor dele fica muito congestionado. Para evitar colisões estéricas, a base \(\text{OH}^-\) é forçada a abstrair o hidrogênio \(\beta\) mais acessível e menos impedido (geralmente em uma ponta de cadeia), resultando no alceno menos substituído (produto de Hofmann).</p>
+
+                    <h4>C) Reação de Diazotação (O Trampolim Molecular)</h4>
+                    <p>Quando uma amina primária reage com o ácido nitroso (\(\text{HNO}_2\), preparado in situ misturando nitrito de sódio \(\text{NaNO}_2\) e \(\text{HCl}\) forte) em baixíssimas temperaturas (\(0^\circ\text{C}\) a \(5^\circ\text{C}\)), ocorre um processo maravilhoso chamado Diazotação.</p>
+                    <ul>
+                        <li><strong>Aminas Primárias Alifáticas:</strong> Geram sais de diazônio alquílicos que são tão instáveis que explodem ou perdem gás nitrogênio (\(\text{N}_2\)) instantaneamente, formando carbocátions caóticos.</li>
+                        <li><strong>Aminas Primárias Aromáticas (Anilinas):</strong> Geram o Sal de Diazônio Arenílico (\(Ar-\text{N}_2^+\ \text{Cl}^-\)), que é estável sob refrigeração graças à ressonância com o anel.</li>
+                    </ul>
+                    <p><strong>🧠 O Trampolim Molecular:</strong> O grupo \(-\text{N}_2^+\) é considerado o melhor grupo de saída de toda a Química Orgânica. Por quê? Porque ao sair, ele se transforma em gás nitrogênio (\(\text{N}_2\)), que é uma molécula extremamente estável e simplesmente voa para fora do meio reagente (um fator termodinâmico imbatível!).</p>
+                    <p><strong>Aplicações:</strong> Uma vez formado o sal de diazônio aromático estável, ele funciona como um verdadeiro trampolim sintético. Você pode substituí-lo facilmente por grupos \(-\text{OH}\) (formando fenóis), \(-\text{CN}\), \(-\text{I}\), \(-\text{Br}\), \(-\text{Cl}\), \(-\text{F}\) ou \(-\text{H}\) (usando reações de Sandmeyer e outros reagentes), ou realizar reações de acoplamento diazo para criar corantes coloridos industriais de alta importância.</p>
+                </div>
+
+                <div id="topic-16" class="topic-content">
+                    <h2>16. Bioquímica e Biomoléculas: A Química da Vida</h2>
+                    <p>Seja muito bem-vindo! Até agora, você estudou como os átomos de carbono se unem, mudam de forma e reagem em laboratório. Hoje, vamos dar o passo definitivo: descobrir como esses mesmos princípios de química orgânica controlam e mantêm a vida dentro de você.</p>
+                    <p>Para tornar esse vasto assunto simples e inesquecível para o seu cérebro, vamos dividir a bioquímica em quatro grandes pilares de biomoléculas, utilizando analogias visuais marcantes e comparações práticas.</p>
                 </div>
 
                 <div id="topic-16-1" class="topic-content">
                     <h2>16. Bioquímica e Biomoléculas (Introdução) - Carboidratos</h2>
-                    <p>Estrutura, estereoquímica e reações dos monossacarídeos.</p>
+                    <h3>🍞 Os Motores de Energia e Suas Formas</h3>
+                    <p>Os carboidratos (ou açúcares) são as fontes imediatas de energia do nosso corpo. Quimicamente, são polihidroxialdeídos ou polihidroxicetonas (moléculas com muitos grupos \(-\text{OH}\) e uma carbonila).</p>
+
+                    <h4>A) O Jogo das Projeções: Fischer vs. Haworth</h4>
+                    <p>Nosso cérebro gosta de simetria e padrões simples para mapear o espaço:</p>
+                    <ul>
+                        <li><strong>Projeção de Fischer (A Fita Métrica):</strong> Representa o açúcar de forma linear e aberta. É excelente para vermos os carbonos quirais alinhados na vertical.</li>
+                        <li><strong>Projeção de Haworth (O Anel Plano):</strong> Na água, a própria molécula do açúcar faz uma reação interna ("mordendo o próprio rabo"): o oxigênio de uma hidroxila ataca a carbonila na ponta da molécula. Isso fecha um anel de 5 ou 6 membros estável.</li>
+                    </ul>
+
+                    <h4>B) Estereoquímica dos Açúcares: D vs. L e Anômeros \(\alpha\) vs. \(\beta\)</h4>
+                    <ul>
+                        <li><strong>A Família D e L:</strong> Olhe para o carbono quiral mais distante do grupo carbonila (o penúltimo carbono da cadeia linear). Se a hidroxila (\(-\text{OH}\)) estiver apontada para a Direita na projeção de Fischer, o açúcar pertence à série D (a forma que nosso corpo realmente consome e metaboliza!). Se estiver para a esquerda, é da série L.</li>
+                        <li><strong>O Carbono Anomérico:</strong> Quando a cadeia se fecha em anel, o carbono que continha a carbonila (carbono 1) vira um novo centro quiral chamado de carbono anomérico.</li>
+                        <li><strong>Anômero \(\alpha\) (Alfa):</strong> A hidroxila do carbono anomérico aponta para <strong>baixo</strong> do plano do anel (lembre-se de \(\alpha\) = abaixo).</li>
+                        <li><strong>Anômero \(\beta\) (Beta):</strong> A hidroxila aponta para <strong>cima</strong> do plano do anel (lembre-se de \(\beta\) = bem no alto).</li>
+                    </ul>
+                    <p><strong>🔄 Mutarrotação:</strong> Colocar glicose pura \(\alpha\) ou \(\beta\) na água faz com que os anéis fiquem se abrindo e fechando continuamente, estabelecendo um equilíbrio dinâmico entre ambas as formas.</p>
+
+                    <h4>C) Reações: Açúcares Redutores</h4>
+                    <p>Se um monossacarídeo possuir um grupo aldeído livre (ou que se abra facilmente a partir da forma hemiacetal), ele consegue atuar como um agente redutor.</p>
+                    <ul>
+                        <li><strong>Teste de Tollens ou Benedict:</strong> Se reagirmos o açúcar com íons metálicos como \(\text{Ag}^+\) ou \(\text{Cu}^{2+}\), o açúcar é oxidado e o metal é reduzido (formando um espelho de prata brilhante ou um precipitado vermelho-tijolo). Se isso acontecer, chamamos o composto de <strong>açúcar redutor</strong>.</li>
+                    </ul>
                 </div>
 
                 <div id="topic-16-2" class="topic-content">
                     <h2>16. Bioquímica e Biomoléculas (Introdução) - Aminoácidos, Peptídeos e Proteínas</h2>
-                    <p>Ponto isoelétrico e ligação peptídica.</p>
+                    <h3>🥩 Os Tijolos da Máquina Biológica</h3>
+                    <p>Se os carboidratos são o combustível, as proteínas são as máquinas e os tecidos do nosso corpo (músculos, anticorpos, enzimas). Elas são formadas pela união de blocos menores: os aminoácidos.</p>
+
+                    <h4>A) A Anatomia de um Aminoácido</h4>
+                    <p>Todo aminoácido possui um carbono central (Carbono Alfa) ligado a quatro parceiros:</p>
+                    <ul>
+                        <li>Um grupo ácido (Ácido Carboxílico: \(-\text{COOH}\)).</li>
+                        <li>Um grupo básico (Amina: \(-\text{NH}_2\)).</li>
+                        <li>Um átomo de Hidrogênio.</li>
+                        <li>Uma cadeia lateral <strong>R</strong> (a identidade única de cada um dos 20 aminoácidos essenciais).</li>
+                    </ul>
+                    <p><em>Nota de Estereoquímica:</em> Com exceção da glicina (onde \(R = H\)), todos os aminoácidos naturais que formam proteínas são quirais e pertencem à configuração <strong>L</strong>.</p>
+
+                    <h4>B) O "Camaleão Químico": Zwitterion e Ponto Isoelétrico (pI)</h4>
+                    <p>Como possuem uma parte ácida e uma básica na mesma molécula, os aminoácidos reagem internamente dependendo do ambiente (pH) em que se encontram:</p>
+                    <ul>
+                        <li><strong>Em pH fisiológico (neutro):</strong> O ácido doa um próton para a amina. A molécula fica com uma carga negativa (\(-\text{COO}^-\)) e uma positiva (\(-\text{NH}_3^+\)). Esse íon duplo e neutro é chamado de <strong>Zwitterion</strong>.</li>
+                        <li><strong>Ponto Isoelétrico (pI):</strong> É o valor exato de pH em que a molécula do aminoácido tem carga elétrica líquida igual a zero (sua forma de Zwitterion predomina absolutamente).</li>
+                    </ul>
+                    <p><strong>🧪 Efeito do pH:</strong> Se colocarmos o aminoácido em um pH abaixo do pI (muito ácido), o excesso de prótons neutraliza o grupo carboxilato, deixando a molécula com carga global positiva (\(-\text{NH}_3^+\)). Se colocarmos em pH acima do pI (muito básico), o meio arranca prótons, gerando carga global negativa (\(-\text{COO}^-\)).</p>
+
+                    <h4>C) A Ligação Peptídica</h4>
+                    <p>Para construir uma proteína, os aminoácidos unem-se através de uma <strong>ligação peptídica</strong>, que nada mais é do que uma ligação <strong>amida</strong>.</p>
+                    <p>O grupo carboxila (\(-\text{COOH}\)) de um aminoácido reage com o grupo amina (\(-\text{NH}_2\)) do vizinho, liberando uma molécula de água (reação de condensação). Esta ligação é surpreendentemente forte, rígida e plana devido à ressonância de elétrons entre o oxigênio e o nitrogênio.</p>
                 </div>
 
                 <div id="topic-16-3" class="topic-content">
-                    <h2>16. Bioquímica e Biomoléculas (Introdução) - Lipídios e Ácidos Graxos.</h2>
-                    <p>Lipídios e Ácidos Graxos.</p>
+                    <h2>16. Bioquímica e Biomoléculas (Introdução) - Lipídios e Ácidos Graxos</h2>
+                    <h3>🧈 Reservas de Energia e Barreiras</h3>
+                    <p>Os lipídios são biomoléculas conhecidas por sua baixa solubilidade em água (hidrofóbicas). Eles compõem as gorduras, óleos, ceras e as próprias membranas das nossas células.</p>
+
+                    <h4>A) Ácidos Graxos: Saturados vs. Insaturados</h4>
+                    <p>Os ácidos graxos são longas cadeias carbônicas com um grupo de ácido carboxílico na ponta.</p>
+                    <ul>
+                        <li><strong>Saturados (Gorduras Sólidas):</strong> Não possuem ligações duplas entre carbonos. Suas cadeias são perfeitamente retas e conseguem se empacotar ("encaixar") perfeitamente umas sobre as outras (como folhas de papel empilhadas). Isso gera forças de atração fortes e altos pontos de fusão.<br/><em>Exemplo:</em> Manteiga, banha de porco.</li>
+                        <li><strong>Insaturados (Óleos Líquidos):</strong> Possuem uma ou mais ligações duplas, quase sempre na geometria <em>cis</em>. Essa geometria causa uma dobra acentuada na cadeia carbônica, impedindo que as moléculas se empacotem de forma organizada. Por estarem mais desordenadas, as interações intermoleculares enfraquecem e o ponto de fusão despenca.<br/><em>Exemplo:</em> Azeite de oliva, óleos vegetais.</li>
+                    </ul>
+
+                    <h4>B) Triacilgliceróis e a Saponificação (Fazendo Sabão)</h4>
+                    <p>Nosso corpo armazena energia na forma de triacilgliceróis (ou triglicerídeos), formados pela união de uma molécula de glicerol com três ácidos graxos através de ligações <strong>éster</strong>.</p>
+                    <p><strong>Reação de Saponificação:</strong> Se tratarmos um triacilglicerol com uma base forte e quente (como soda cáustica, \(\text{NaOH}\)), quebramos as ligações éster (hidrólise alcalina). Essa reação gera glicerol e sais de ácidos graxos — que são os nossos sabões! O sabão limpa porque tem uma longa cauda apolar (que interage com a gordura) e uma cabeça polar carregada (que se dissolve perfeitamente na água).</p>
                 </div>
 
                 <div id="topic-16-4" class="topic-content">
-                    <h2>16. Bioquímica e Biomoléculas (Introdução) - Ácidos Nucleicos (DNA e RNA).</h2>
-                    <p>Ácidos Nucleicos (DNA e RNA).</p>
+                    <h2>16. Bioquímica e Biomoléculas (Introdução) - Ácidos Nucleicos (DNA e RNA)</h2>
+                    <h3>🧬 O Livro de Receitas da Vida</h3>
+                    <p>O DNA (Ácido Desoxirribonucleico) e o RNA (Ácido Ribonucleico) são polímeros gigantes responsáveis por armazenar e traduzir toda a informação genética dos seres vivos.</p>
+
+                    <h4>A) A Unidade Básica: O Nucleotídeo</h4>
+                    <p>Cada "letra" ou bloco de construção dos ácidos nucleicos é um nucleotídeo, composto por três partes indissociáveis:</p>
+                    <ol>
+                        <li><strong>Um grupo fosfato</strong> (que une os nucleotídeos formando a coluna dorsal ácida).</li>
+                        <li><strong>Um açúcar de 5 carbonos (Pentose):</strong>
+                            <ul>
+                                <li>No RNA, o açúcar é a <strong>ribose</strong> (contém um grupo \(-\text{OH}\) no carbono 2').</li>
+                                <li>No DNA, o açúcar é a <strong>desoxirribose</strong> (perdeu o oxigênio e possui apenas \(-\text{H}\) no carbono 2', tornando a molécula quimicamente muito mais estável para durar uma vida inteira).</li>
+                            </ul>
+                        </li>
+                        <li><strong>Uma Base Nitrogenada:</strong>
+                            <ul>
+                                <li><strong>Purinas (Anel duplo):</strong> Adenina (A) e Guanina (G).</li>
+                                <li><strong>Pirimidinas (Anel simples):</strong> Citosina (C), Timina (T - exclusiva do DNA) e Uracila (U - exclusiva do RNA).</li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                    <h4>B) A Dupla Hélice e o Pareamento de Bases</h4>
+                    <p>O DNA é uma escada em caracol de fita dupla estabilizada por ligações de hidrogênio altamente específicas entre as bases nitrogenadas voltadas para o interior:</p>
+                    <ul>
+                        <li>A <strong>Adenina</strong> sempre se emparelha com a <strong>Timina</strong> (A-T) por meio de <strong>2 ligações de hidrogênio</strong>.</li>
+                        <li>A <strong>Guanina</strong> sempre se emparelha com a <strong>Citosina</strong> (G-C) por meio de <strong>3 ligações de hidrogênio</strong> (uma união ainda mais forte e resistente ao calor!).</li>
+                    </ul>
                 </div>
 
             </section>
